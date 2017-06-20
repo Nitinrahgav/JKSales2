@@ -1,6 +1,7 @@
 package com.jkpaper.jksales.Adapters;
 
 import android.content.Context;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,9 +22,11 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
     }
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView textName;
+        CardView cardMenu;
         public MyViewHolder(View itemView) {
             super(itemView);
             textName = (TextView)itemView.findViewById(R.id.tv_android);
+            cardMenu = (CardView)itemView.findViewById(R.id.card_menus);
 
         }
     }
@@ -36,6 +39,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         holder.textName.setText(menus.get(position).getMenuName());
+
     }
 
 

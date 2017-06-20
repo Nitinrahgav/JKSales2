@@ -13,6 +13,9 @@ public class Data {
     @SerializedName("msg")
     @Expose
     private String msg;
+    @SerializedName("type")
+    @Expose
+    private String type;
     @SerializedName("menus")
     @Expose
     private List<Menu> menus = null;
@@ -22,6 +25,10 @@ public class Data {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+    public String getType(){return type;}
+    public void setType(String type){
+        this.type = type;
     }
 
     public List<Menu> getMenus() {

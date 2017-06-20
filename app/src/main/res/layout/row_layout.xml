@@ -5,6 +5,7 @@
     android:background="@color/colorPrimaryDark"
     android:layout_width="match_parent"
     android:layout_margin="30dp"
+    android:id="@+id/card_menus"
     app:cardCornerRadius="4dp"
     app:cardBackgroundColor="@color/colorPrimaryDark"
     android:layout_height="wrap_content">
