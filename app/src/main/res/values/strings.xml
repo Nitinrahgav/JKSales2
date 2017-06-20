@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JK Sales</string>
+    <string name="base_url">http://www.nitinraghav.com</string>
 </resources>

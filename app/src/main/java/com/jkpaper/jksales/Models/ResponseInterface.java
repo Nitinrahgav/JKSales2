@@ -1,8 +1,14 @@
 package com.jkpaper.jksales.Models;
 
-/**
- * Created by ashish on 20/6/17.
- */
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Headers;
 
-public class ResponseInterface {
+
+public interface ResponseInterface {
+    @Headers({
+            "Token:d75542712c868c1690110db641ba01a"
+    })
+    @GET("/jkapi/get_menus.php")
+    Call<ResponseMenu> getResponse();
 }
