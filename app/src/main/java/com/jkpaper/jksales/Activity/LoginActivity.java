@@ -6,6 +6,7 @@ import android.annotation.TargetApi;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.app.LoaderManager.LoaderCallbacks;
@@ -19,7 +20,9 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -29,6 +32,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -77,10 +81,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     // UI references.
     private AutoCompleteTextView mEmailView;
-    private EditText mPasswordView;
+    private EditText mPasswordView, edtOtp;
     private View mProgressView;
     private View mLoginFormView;
-
+    String user_id;
+    private LinearLayout otpLayout, loginFormLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,7 +93,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
-
+        edtOtp = (EditText)findViewById(R.id.edt_otp);
+        otpLayout = (LinearLayout)findViewById(R.id.linear_layout_otp);
+        loginFormLayout = (LinearLayout)findViewById(R.id.email_login_form);
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -329,6 +336,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                         System.out.println("Registration Error" + e.getMessage());
                     }
 
+                    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                     @Override
                     public void onResponse(Call call, okhttp3.Response response) throws IOException {
 
@@ -343,11 +351,17 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                 if(Objects.equals(type, "Success")){
                                     JSONObject obj_data=obj_response.getJSONObject("data");
                                     JSONObject obj_user=obj_data.getJSONObject("user");
-                                    String user_id=obj_user.getString("user_id");
-                                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                    intent.putExtra("id",user_id);
-                                    Log.d("user_id",user_id);
-                                    startActivity(intent);
+                                    user_id=obj_user.getString("user_id");
+                                    runOnUiThread(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            loginFormLayout.setVisibility(View.GONE);
+                                            otpLayout.setVisibility(View.VISIBLE);
+                                        }
+                                    });
+
+                                    initOtpViews();
+
                                 }else{
                                     Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
                                 }
@@ -403,6 +417,39 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mAuthTask = null;
             showProgress(false);
         }
+    }
+
+    private void initOtpViews() {
+
+        edtOtp.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if(s.length() == 4){
+                    Log.d("sequece",s.toString());
+                    if(Objects.equals(s.toString(), "3489")){
+                        Toast.makeText(getApplicationContext(),"You have successfully logged in",Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        intent.putExtra("id",user_id);
+                        Log.d("user_id",user_id);
+                        startActivity(intent);
+                    }else{
+                        Toast.makeText(getApplicationContext(),"Entered OTP is not valid",Toast.LENGTH_SHORT).show();
+                    }
+                }
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
     }
 }
 
