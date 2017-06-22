@@ -27,12 +27,16 @@ public class MainActivity extends AppCompatActivity {
     List<String> menusList = new ArrayList<>();
     List<Menu> menus = new ArrayList<>();
     RecyclerView recyclerView;
+    public String url;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loadResponse();
         initViews();
+
+        System.out.println(url);
     }
 
     private void initViews() {
@@ -43,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadResponse() {
+        url = "http://www.nitinraghav.com/jkapi/get_menus.php?user_id="+getIntent().getExtras().getString("id");
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();
@@ -51,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         ResponseInterface request = retrofit.create(ResponseInterface.class);
-        Call<ResponseMenu> call = request.getResponse();
+        Call<ResponseMenu> call = request.getResponse(url);
         call.enqueue(new Callback<ResponseMenu>() {
             @Override
             public void onResponse(Call<ResponseMenu> call, Response<ResponseMenu> response) {

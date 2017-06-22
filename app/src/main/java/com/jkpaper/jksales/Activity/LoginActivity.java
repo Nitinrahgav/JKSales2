@@ -41,6 +41,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -333,28 +334,26 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
                         try {
                             String resp = response.body().string();
-                            JSONArray arr = null;
-                            try {
-                                arr = new JSONArray(resp);
-                            } catch (JSONException e) {
-                                e.printStackTrace();
-                            }
-                            JSONObject jObj = null;
-                            try {
-                                jObj = arr.getJSONObject(0);
-                            } catch (JSONException e) {
-                                e.printStackTrace();
-                            }
-                            try {
-                                String type = jObj.getString("type");
-                                String msg = jObj.getString("message");
-                                if(type == "Success"){
+
+                            try { JSONObject obj=new JSONObject(resp);
+                                JSONObject obj_response=obj.getJSONObject("Response");
+                                JSONObject obj_status=obj_response.getJSONObject("status");
+                                String type=obj_status.getString("type");
+                                String message=obj_status.getString("message");
+                                if(Objects.equals(type, "Success")){
+                                    JSONObject obj_data=obj_response.getJSONObject("data");
+                                    JSONObject obj_user=obj_data.getJSONObject("user");
+                                    String user_id=obj_user.getString("user_id");
                                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                    intent.putExtra("id",user_id);
+                                    Log.d("user_id",user_id);
                                     startActivity(intent);
                                 }else{
-                                    Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
                                 }
-                            } catch (JSONException e) {
+                            }
+                            catch (JSONException e)
+                            {
                                 e.printStackTrace();
                             }
                             Log.v("Response", resp);

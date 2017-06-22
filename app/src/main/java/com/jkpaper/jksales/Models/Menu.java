@@ -8,14 +8,26 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class Menu {
-
+    @SerializedName("menu_access")
+    @Expose
+    private int menuAccess;
+    @SerializedName("menu_api")
+    @Expose
+    private String menuApi;
     @SerializedName("menu_id")
     @Expose
     private String menuId;
     @SerializedName("menu_name")
     @Expose
     private String menuName;
-
+    public int getMenuAccess(){return menuAccess;}
+    public void  setMenuAccess(int menuAccess){
+        this.menuAccess = menuAccess;
+    }
+    public String getMenuApi(){return menuApi;}
+    public void  setMenuApi(String menuApi){
+        this.menuApi = menuApi;
+    }
     public String getMenuId() {
         return menuId;
     }
