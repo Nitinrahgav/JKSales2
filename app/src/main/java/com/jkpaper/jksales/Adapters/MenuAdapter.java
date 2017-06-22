@@ -1,6 +1,7 @@
 package com.jkpaper.jksales.Adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.jkpaper.jksales.Activity.DetailActivity;
 import com.jkpaper.jksales.Models.Menu;
 import com.jkpaper.jksales.R;
 
@@ -49,7 +51,10 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
             holder.cardMenu.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(context,"Clicked  "+position,Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(context, DetailActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    context.startActivity(intent);
+                    //Toast.makeText(context,"Clicked  "+position,Toast.LENGTH_SHORT).show();
                 }
             });
         }

@@ -17,7 +17,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.MainActivity"
+        <activity
+            android:name=".Activity.MainActivity"
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Activity.LoginActivity"
@@ -29,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Activity.DetailActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="InnerclassSeparator" />
     </application>
 
 </manifest>

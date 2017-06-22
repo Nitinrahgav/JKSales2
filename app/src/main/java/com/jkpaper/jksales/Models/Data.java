@@ -19,6 +19,16 @@ public class Data {
     @SerializedName("menus")
     @Expose
     private List<Menu> menus = null;
+    @SerializedName("details")
+    @Expose
+    private List<Detail> details = null;
+    public List<Detail> getDetails() {
+        return details;
+    }
+
+    public void setDetails(List<Detail> details) {
+        this.details = details;
+    }
     public String getMsg() {
         return msg;
     }
