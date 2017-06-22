@@ -13,28 +13,28 @@ public class Detail {
     private String name;
     @SerializedName("tgt")
     @Expose
-    private Integer tgt;
+    private String tgt;
     @SerializedName("order")
     @Expose
-    private Integer order;
+    private String order;
     @SerializedName("sls")
     @Expose
-    private Integer sls;
+    private String sls;
     @SerializedName("shortfall")
     @Expose
-    private Integer shortfall;
+    private String shortfall;
     @SerializedName("achieved")
     @Expose
     private String achieved;
     @SerializedName("sls_last")
     @Expose
-    private Integer slsLast;
+    private String slsLast;
     @SerializedName("sls_avg")
     @Expose
-    private Integer slsAvg;
+    private String slsAvg;
     @SerializedName("sls_ly")
     @Expose
-    private Integer slsLy;
+    private String slsLy;
 
     public String getName() {
         return name;
@@ -44,35 +44,35 @@ public class Detail {
         this.name = name;
     }
 
-    public Integer getTgt() {
+    public String getTgt() {
         return tgt;
     }
 
-    public void setTgt(Integer tgt) {
+    public void setTgt(String tgt) {
         this.tgt = tgt;
     }
 
-    public Integer getOrder() {
+    public String getOrder() {
         return order;
     }
 
-    public void setOrder(Integer order) {
+    public void setOrder(String order) {
         this.order = order;
     }
 
-    public Integer getSls() {
+    public String getSls() {
         return sls;
     }
 
-    public void setSls(Integer sls) {
+    public void setSls(String sls) {
         this.sls = sls;
     }
 
-    public Integer getShortfall() {
+    public String getShortfall() {
         return shortfall;
     }
 
-    public void setShortfall(Integer shortfall) {
+    public void setShortfall(String shortfall) {
         this.shortfall = shortfall;
     }
 
@@ -84,27 +84,27 @@ public class Detail {
         this.achieved = achieved;
     }
 
-    public Integer getSlsLast() {
+    public String getSlsLast() {
         return slsLast;
     }
 
-    public void setSlsLast(Integer slsLast) {
+    public void setSlsLast(String slsLast) {
         this.slsLast = slsLast;
     }
 
-    public Integer getSlsAvg() {
+    public String getSlsAvg() {
         return slsAvg;
     }
 
-    public void setSlsAvg(Integer slsAvg) {
+    public void setSlsAvg(String slsAvg) {
         this.slsAvg = slsAvg;
     }
 
-    public Integer getSlsLy() {
+    public String getSlsLy() {
         return slsLy;
     }
 
-    public void setSlsLy(Integer slsLy) {
+    public void setSlsLy(String slsLy) {
         this.slsLy = slsLy;
     }
 

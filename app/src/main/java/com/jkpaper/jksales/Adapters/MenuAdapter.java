@@ -51,7 +51,9 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
             holder.cardMenu.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    String url = menus.get(position).getMenuApi();
                     Intent intent = new Intent(context, DetailActivity.class);
+                    intent.putExtra("url",url);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(intent);
                     //Toast.makeText(context,"Clicked  "+position,Toast.LENGTH_SHORT).show();
