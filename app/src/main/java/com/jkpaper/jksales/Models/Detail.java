@@ -3,11 +3,9 @@ package com.jkpaper.jksales.Models;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by ashish on 22/6/17.
- */
 
 public class Detail {
+
     @SerializedName("name")
     @Expose
     private String name;
