@@ -7,9 +7,13 @@ import android.util.Log;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.jkpaper.jksales.Adapters.MenuAdapter;
+import com.jkpaper.jksales.Models.Detail;
 import com.jkpaper.jksales.Models.ResponseInterface;
 import com.jkpaper.jksales.Models.ResponseMenu;
 import com.jkpaper.jksales.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -18,7 +22,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class DetailActivity extends AppCompatActivity {
-
+    List<Detail> detailList = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,10 +45,11 @@ public class DetailActivity extends AppCompatActivity {
             public void onResponse(Call<ResponseMenu> call, Response<ResponseMenu> response) {
                 if(response != null){
                     ResponseMenu jsonResponse = response.body();
+                    detailList = jsonResponse.getResponse().getData().getDetails();
 //                    menus = jsonResponse.getResponse().getData().getMenus();
 //                    MenuAdapter adapter = new MenuAdapter(getApplicationContext(),menus);
 //                    recyclerView.setAdapter(adapter);
-                    Log.d("ResponseMenu", String.valueOf(jsonResponse.getResponse().getData().getDetails().get(0).getName()));
+                    Log.d("ResponseMenu", detailList.get(0).getName());
                 }
             }
 
