@@ -62,4 +62,9 @@
             android:textAlignment="center"
             android:id="@+id/tv_detail9"/>
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="1dp"
+        android:background="#bdbdbd"/>
 </LinearLayout>
