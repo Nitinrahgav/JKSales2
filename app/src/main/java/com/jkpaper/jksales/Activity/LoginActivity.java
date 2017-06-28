@@ -92,11 +92,13 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         setContentView(R.layout.activity_login);
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
+        mEmailView.setNextFocusDownId(R.id.password);
         populateAutoComplete();
         edtOtp = (EditText)findViewById(R.id.edt_otp);
         otpLayout = (LinearLayout)findViewById(R.id.linear_layout_otp);
         loginFormLayout = (LinearLayout)findViewById(R.id.email_login_form);
         mPasswordView = (EditText) findViewById(R.id.password);
+        mPasswordView.setNextFocusDownId(R.id.email_sign_in_button);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
