@@ -2,10 +2,13 @@ package com.jkpaper.jksales.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.jkpaper.jksales.Adapters.AdapterDetails;
 import com.jkpaper.jksales.Adapters.MenuAdapter;
 import com.jkpaper.jksales.Models.Detail;
 import com.jkpaper.jksales.Models.ResponseInterface;
@@ -23,11 +26,16 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class DetailActivity extends AppCompatActivity {
     private List<Detail> detailList = new ArrayList<>();
+    RecyclerView recyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         loadResponse();
+        recyclerView = (RecyclerView)findViewById(R.id.recycler_detail);
+        recyclerView.setHasFixedSize(true);
+        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(),1);
+        recyclerView.setLayoutManager(layoutManager);
     }
 
     private void loadResponse() {
@@ -48,6 +56,8 @@ public class DetailActivity extends AppCompatActivity {
                     Log.d("response",jsonResponse.toString());
                     detailList = jsonResponse.getResponse().getData().getDetails();
                     Log.d("List Size", String.valueOf(detailList.size()));
+                    AdapterDetails adapterDetails = new AdapterDetails(getApplicationContext(), detailList);
+                    recyclerView.setAdapter(adapterDetails);
 //                    menus = jsonResponse.getResponse().getData().getMenus();
 //                    MenuAdapter adapter = new MenuAdapter(getApplicationContext(),menus);
 //                    recyclerView.setAdapter(adapter);
