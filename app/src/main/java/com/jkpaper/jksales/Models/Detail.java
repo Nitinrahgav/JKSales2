@@ -6,6 +6,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class Detail {
 
+
     @SerializedName("name")
     @Expose
     private String name;
