@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

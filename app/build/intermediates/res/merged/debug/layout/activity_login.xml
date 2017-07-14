@@ -1,0 +1,144 @@
+<LinearLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.jkpaper.jksales.Activity.LoginActivity"
+ >
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/images1c"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|center_horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="35dp">
+        <!-- Login progress -->
+        <ProgressBar
+                android:id="@+id/login_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"/>
+
+        <ScrollView
+                android:id="@+id/login_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        android:id="@+id/email_login_form"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusableInTouchMode="true"
+                        android:orientation="horizontal">
+
+                    <ImageView
+                            android:paddingTop="50dp"
+                            android:id="@+id/img"
+                            android:layout_width="230dp"
+                            android:layout_height="148dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/Logo"
+                            android:background="@drawable/logoo"
+                    />
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                        android:paddingTop="40dp"
+                    >
+
+
+                        <AutoCompleteTextView
+
+                                android:id="@+id/email"
+                                android:layout_width="300dp"
+                                android:textColor="#1B72D6"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="30dp"
+                                android:hint="@string/prompt_email"
+                                android:layout_gravity="center_horizontal"
+                                android:textColorHint="#1B72D6"
+                                android:inputType="textEmailAddress"
+                                android:maxLines="1"
+                                android:singleLine="true"/>
+
+
+                        <EditText
+                                android:id="@+id/password"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="40dp"
+                                android:hint="@string/prompt_password"
+                                android:textColor="#1B72D6"
+                                android:layout_gravity="center_horizontal"
+                                android:textColorHint="#1B72D6"
+                                android:imeActionId="@+id/login"
+                                android:imeActionLabel="@string/action_sign_in_short"
+                                android:imeOptions="actionUnspecified"
+                                android:inputType="textPassword"
+                                android:maxLines="1"
+                                android:singleLine="true"/>
+
+
+                        <Button
+                                android:id="@+id/email_sign_in_button"
+                                android:layout_width="300dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="10dp"
+                                android:layout_marginTop="16dp"
+                                android:background="@drawable/roundedbutton"
+                                android:text="@string/action_sign_in"
+                                android:textColor="#1265D6"
+                                android:textStyle="bold"
+                                tools:ignore="ButtonStyle"
+android:paddingTop="10dp"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:id="@+id/linear_layout_otp">
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="50dp"
+                            android:text="Enter OTP"
+                            android:textColor="#1B72D6"
+                            android:textSize="30sp"
+                            android:textAlignment="center"
+                            android:textColorHint="#D6D7D7"/>
+
+                    <EditText
+                            android:layout_width="120dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:maxLength="4"
+                            android:textAlignment="center"
+                            android:id="@+id/edt_otp"
+                            android:maxLines="1"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

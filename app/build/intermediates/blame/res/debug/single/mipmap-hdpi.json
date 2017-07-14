@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/splash.png",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/splash.png"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    }
+]

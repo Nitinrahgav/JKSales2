@@ -1,0 +1,148 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:11:22-69
+application
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:13:5-48:19
+MERGED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ashish/.android/build-cache/9376123d131ee7089053be07c550371fd839504f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ashish/.android/build-cache/17ec3c4c55ab7c48b87f77323dc3bf0ea9e7b577/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/ashish/.android/build-cache/ccf222b3a2e1eb7148d67bf54d450dd26bb8374d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ashish/.android/build-cache/dbdaa78ad14d2f0d149fb7676f3a46ec74205533/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/ashish/.android/build-cache/02056ffbb06d05fca647c1d521c8fe0606ff4732/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ashish/.android/build-cache/58c1745272ca5d2d239b0c4031ed475b4829d8a7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ashish/.android/build-cache/3ebd5269858ebde7ce69ce8266caa41b3d103071/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ashish/.android/build-cache/fcc31d2ccca4dd2ce059e0b94b7bbc0bb5a18111/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ashish/.android/build-cache/9883fadf1748e37d6be8890d4abb8ebd55181499/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/ashish/.android/build-cache/25bbbd8722913c13dc5bad087e4156ebe2faad7c/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:19:9-35
+	android:roundIcon
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:18:9-54
+	android:allowBackup
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:20:9-40
+	android:logo
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:17:9-38
+activity#com.jkpaper.jksales.Activity.MainActivity
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:21:9-24:50
+	tools:ignore
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:24:13-47
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:22:13-50
+activity#com.jkpaper.jksales.Activity.LoginActivity
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:screenOrientation
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:28:13-50
+	android:label
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:27:13-57
+	tools:ignore
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:29:13-47
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:26:13-51
+activity#com.jkpaper.jksales.Activity.DetailActivity
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:32:9-35:50
+	android:screenOrientation
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:34:13-50
+	tools:ignore
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:35:13-47
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:33:13-52
+activity#com.jkpaper.jksales.Activity.FullscreenActivity
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:36:9-47:20
+	android:screenOrientation
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:40:13-50
+	android:label
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:39:13-62
+	android:configChanges
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:38:13-74
+	android:theme
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:41:13-51
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:37:13-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:42:13-45:29
+action#android.intent.action.MAIN
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:44:27-74
+uses-sdk
+INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ashish/.android/build-cache/9376123d131ee7089053be07c550371fd839504f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ashish/.android/build-cache/17ec3c4c55ab7c48b87f77323dc3bf0ea9e7b577/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/ashish/.android/build-cache/ccf222b3a2e1eb7148d67bf54d450dd26bb8374d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ashish/.android/build-cache/dbdaa78ad14d2f0d149fb7676f3a46ec74205533/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ashish/.android/build-cache/e4d656f2aab848a091010a32f03b60e75400986a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /home/ashish/.android/build-cache/02056ffbb06d05fca647c1d521c8fe0606ff4732/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ashish/.android/build-cache/58c1745272ca5d2d239b0c4031ed475b4829d8a7/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ashish/.android/build-cache/3ebd5269858ebde7ce69ce8266caa41b3d103071/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ashish/.android/build-cache/fcc31d2ccca4dd2ce059e0b94b7bbc0bb5a18111/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ashish/.android/build-cache/9883fadf1748e37d6be8890d4abb8ebd55181499/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/ashish/.android/build-cache/25bbbd8722913c13dc5bad087e4156ebe2faad7c/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ashish/.android/build-cache/9376123d131ee7089053be07c550371fd839504f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ashish/.android/build-cache/17ec3c4c55ab7c48b87f77323dc3bf0ea9e7b577/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/ashish/.android/build-cache/ccf222b3a2e1eb7148d67bf54d450dd26bb8374d/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ashish/.android/build-cache/dbdaa78ad14d2f0d149fb7676f3a46ec74205533/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ashish/.android/build-cache/e4d656f2aab848a091010a32f03b60e75400986a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/ashish/.android/build-cache/02056ffbb06d05fca647c1d521c8fe0606ff4732/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ashish/.android/build-cache/58c1745272ca5d2d239b0c4031ed475b4829d8a7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ashish/.android/build-cache/3ebd5269858ebde7ce69ce8266caa41b3d103071/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ashish/.android/build-cache/fcc31d2ccca4dd2ce059e0b94b7bbc0bb5a18111/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ashish/.android/build-cache/9883fadf1748e37d6be8890d4abb8ebd55181499/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/ashish/.android/build-cache/25bbbd8722913c13dc5bad087e4156ebe2faad7c/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:26:9-47

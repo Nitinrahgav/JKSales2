@@ -20,7 +20,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Activity.MainActivity"
-            android:screenOrientation="landscape"
+
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Activity.LoginActivity"
