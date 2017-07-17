@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/app_logo.png",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/app_logo.png"
+    },
+    {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/splash.png",
         "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/splash.png"
     },

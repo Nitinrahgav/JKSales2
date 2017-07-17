@@ -430,7 +430,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     Log.d("sequece",s.toString());
                     if(Objects.equals(s.toString(), "3489")){
                         Toast.makeText(getApplicationContext(),"You have successfully logged in",Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
                         intent.putExtra("id",user_id);
                         Log.d("user_id",user_id);
                         startActivity(intent);

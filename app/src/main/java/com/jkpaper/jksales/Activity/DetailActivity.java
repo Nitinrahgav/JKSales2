@@ -1,5 +1,6 @@
 package com.jkpaper.jksales.Activity;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -33,6 +34,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle(getIntent().getStringExtra("title"));
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
         loadResponse();
@@ -62,6 +64,7 @@ public class DetailActivity extends AppCompatActivity {
                 .build();
         ResponseInterface request = retrofit.create(ResponseInterface.class);
         Call<ResponseMenu> call = request.getResponse(getIntent().getExtras().getString("url"));
+        Log.d("URL",getIntent().getStringExtra("url"));
         call.enqueue(new Callback<ResponseMenu>() {
             @Override
             public void onResponse(Call<ResponseMenu> call, Response<ResponseMenu> response) {

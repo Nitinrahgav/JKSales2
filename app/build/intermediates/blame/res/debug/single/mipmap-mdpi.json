@@ -4,6 +4,10 @@
         "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-mdpi/app_logo.png",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-mdpi/app_logo.png"
+    },
+    {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
         "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     }

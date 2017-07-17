@@ -17,7 +17,13 @@
         completions."
     </string>
 
-    <string name="title_activity_fullscreen">SplashActivity</string>
+    <string name="title_activity_fullscreen">JK Papers</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_menu_activty_nav">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

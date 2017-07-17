@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
@@ -52,12 +52,12 @@
         "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable/notification_bg_low.xml"
-    },
-    {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
@@ -182,6 +182,10 @@
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/logo.png",
         "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/side_nav_bar.xml",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/drawable/side_nav_bar.xml"
     },
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",

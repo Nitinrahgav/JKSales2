@@ -6,31 +6,31 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500058727965"
+    timestamp="1500301414716"
     token="3365173812791371679"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="264" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="16" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
+    <artifact
+        location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
     <artifact
         location="/home/ashish/Downloads/JKSales2/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
     <artifact
         location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
         location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -62,16 +62,16 @@
 
     <build
         build-mode="FULL"
-        timestamp="1500058727965"
+        timestamp="1500301414716"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
         <artifact
             location="/home/ashish/Downloads/JKSales2/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
             location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/ashish/Downloads/JKSales2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
