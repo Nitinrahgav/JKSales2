@@ -634,6 +634,7 @@
     <string name="prompt_password">Password</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_details">DetailsActivity</string>
     <string name="title_activity_fullscreen">JK Papers</string>
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_menu_activty_nav">Menu</string>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:2:1-51:12
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml
@@ -32,7 +32,7 @@ ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:11:5
 	android:name
 		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:11:22-69
 application
-ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:13:5-49:19
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:13:5-54:19
 MERGED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ashish/.android/build-cache/9376123d131ee7089053be07c550371fd839504f/output/AndroidManifest.xml:26:5-20
@@ -106,13 +106,23 @@ ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:42:1
 	android:name
 		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:42:27-74
 activity#com.jkpaper.jksales.Activity.MenuActivtyNav
-ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:45:9-48:68
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:45:9-48:59
 	android:label
 		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:47:13-68
 	android:theme
 		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:48:13-56
 	android:name
 		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:46:13-52
+activity#com.jkpaper.jksales.Activity.DetailsActivity
+ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:49:9-53:53
+	android:screenOrientation
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:53:13-50
+	android:label
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:51:13-59
+	android:theme
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml:50:13-53
 uses-sdk
 INJECTED from /home/ashish/Downloads/JKSales2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/AndroidManifest.xml:21:5-23:62

@@ -45,7 +45,12 @@
         <activity
             android:name=".Activity.MenuActivtyNav"
             android:label="@string/title_activity_menu_activty_nav"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>

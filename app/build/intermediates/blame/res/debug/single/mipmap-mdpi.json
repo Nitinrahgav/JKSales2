@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-mdpi/nav_draw_background.png",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-mdpi/nav_draw_background.png"
+    },
+    {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

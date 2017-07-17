@@ -20,8 +20,16 @@
         "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/layout/detail.xml"
     },
     {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/content_details.xml",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/layout/content_details.xml"
+    },
+    {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/app_bar_details.xml",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/layout/app_bar_details.xml"
     },
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -30,6 +38,10 @@
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/nav_header_details.xml",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/layout/nav_header_details.xml"
     },
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
@@ -78,6 +90,10 @@
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/app_bar_menu_activty_nav.xml",
         "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/layout/app_bar_menu_activty_nav.xml"
+    },
+    {
+        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/activity_details.xml",
+        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/layout/activity_details.xml"
     },
     {
         "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",

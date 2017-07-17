@@ -51,6 +51,11 @@
             android:name="com.jkpaper.jksales.Activity.MenuActivtyNav"
             android:label="@string/title_activity_menu_activty_nav"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jkpaper.jksales.Activity.DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

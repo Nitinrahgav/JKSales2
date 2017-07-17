@@ -5,11 +5,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.jkpaper.jksales.Activity.DetailActivity">
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/recycler_detail"
-        android:scrollbars="vertical"
-        android:layout_margin="3dp" >
-    </android.support.v7.widget.RecyclerView>
+
 </RelativeLayout>
