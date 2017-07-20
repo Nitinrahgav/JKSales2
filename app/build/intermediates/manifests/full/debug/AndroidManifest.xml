@@ -30,16 +30,12 @@
         <activity android:name="com.jkpaper.jksales.Activity.MainActivity" />
         <activity
             android:name="com.jkpaper.jksales.Activity.LoginActivity"
-            android:label="@string/title_activity_login"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name="com.jkpaper.jksales.Activity.DetailActivity"
-            android:screenOrientation="landscape" />
+            android:label="@string/title_activity_login" />
+        <activity android:name="com.jkpaper.jksales.Activity.DetailActivity" />
         <activity
             android:name="com.jkpaper.jksales.Activity.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
-            android:screenOrientation="landscape"
             android:theme="@style/FullscreenTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,7 +50,6 @@
         <activity
             android:name="com.jkpaper.jksales.Activity.DetailsActivity"
             android:label="@string/title_activity_details"
-            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

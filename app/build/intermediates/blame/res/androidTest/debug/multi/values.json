@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ashish/Downloads/JKSales2/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/ashish/.android/build-cache/debfe7eb3ad65c6a15ea8bb1c341f6969e202283/output/res/values/values.xml",
+                    "file": "C:\\Users\\RSTI EServices\\.android\\build-cache\\e4b57206fd79da90f99b30121d517c6e88a15533\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

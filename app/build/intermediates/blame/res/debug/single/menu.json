@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/menu/menu_activty_nav.xml",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/menu/menu_activty_nav.xml"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_details_drawer.xml",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\menu\\activity_details_drawer.xml"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/menu/activity_details_drawer.xml",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/menu/activity_details_drawer.xml"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\menu\\details.xml",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\menu\\details.xml"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/menu/details.xml",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/menu/details.xml"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_activty_nav.xml",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\menu\\menu_activty_nav.xml"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/menu/activity_menu_activty_nav_drawer.xml",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/menu/activity_menu_activty_nav_drawer.xml"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_menu_activty_nav_drawer.xml",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\menu\\activity_menu_activty_nav_drawer.xml"
     }
 ]

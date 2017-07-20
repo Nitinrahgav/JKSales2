@@ -24,17 +24,14 @@
         <activity
             android:name=".Activity.LoginActivity"
             android:label="@string/title_activity_login"
-            android:screenOrientation="landscape"
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Activity.DetailActivity"
-            android:screenOrientation="landscape"
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Activity.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
-            android:screenOrientation="landscape"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,8 +46,7 @@
         <activity
             android:name=".Activity.DetailsActivity"
             android:label="@string/title_activity_details"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="landscape" />
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

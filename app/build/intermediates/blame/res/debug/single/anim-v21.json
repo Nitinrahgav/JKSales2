@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

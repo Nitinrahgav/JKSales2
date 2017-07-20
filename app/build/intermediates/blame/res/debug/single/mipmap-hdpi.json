@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/app_logo.png",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/app_logo.png"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/splash.png",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/splash.png"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\splash.png",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\mipmap-hdpi\\splash.png"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\app_logo.png",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\mipmap-hdpi\\app_logo.png"
     }
 ]

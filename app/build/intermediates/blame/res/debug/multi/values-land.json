@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ashish/Downloads/JKSales2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+        "outputFile": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "/home/ashish/.android/build-cache/570dbeea7a5e76b4e75adca65e28c3a9db5c5ace/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "/home/ashish/.android/build-cache/fec9e59f0cab9d6b136ff68d73fcb2c38ba10cb7/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

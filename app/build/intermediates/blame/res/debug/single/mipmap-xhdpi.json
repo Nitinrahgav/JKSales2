@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/app_logo.png",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-xhdpi/app_logo.png"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\app_logo.png",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\mipmap-xhdpi\\app_logo.png"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/home/ashish/Downloads/JKSales2/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/ashish/Downloads/JKSales2/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]
