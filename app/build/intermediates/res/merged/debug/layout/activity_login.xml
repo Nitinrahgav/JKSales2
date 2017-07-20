@@ -1,4 +1,4 @@
-<android.support.design.widget.CoordinatorLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:layout_height="160dp"
         android:contentDescription="@string/Logo"
         android:background="@drawable/logoo" />
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
@@ -30,7 +30,7 @@
             android:layout_marginBottom="8dp"
             android:visibility="gone"/>
 
-        <ScrollView
+        <android.support.v4.widget.NestedScrollView
             android:id="@+id/login_form"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -61,12 +61,10 @@
 
                             android:id="@+id/email"
                             android:layout_width="match_parent"
-                            android:textColor="#1B72D6"
                             android:layout_height="wrap_content"
                             android:paddingTop="30dp"
                             android:hint="@string/prompt_email"
                             android:layout_gravity="center_horizontal"
-                            android:textColorHint="#1B72D6"
                             android:inputType="textEmailAddress"
                             android:maxLines="1"
                             android:singleLine="true"/>
@@ -78,9 +76,7 @@
                             android:layout_height="wrap_content"
                             android:paddingTop="40dp"
                             android:hint="@string/prompt_password"
-                            android:textColor="#1B72D6"
                             android:layout_gravity="center_horizontal"
-                            android:textColorHint="#1B72D6"
                             android:imeActionId="@+id/login"
                             android:imeActionLabel="@string/action_sign_in_short"
                             android:imeOptions="actionUnspecified"
@@ -123,17 +119,18 @@
                 </LinearLayout>
 
             </LinearLayout>
-        </ScrollView>
-    </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
     <Button
         android:id="@+id/email_sign_in_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimary"
         android:text="@string/action_sign_in"
         android:textColor="#ffffff"
+        android:textSize="15sp"
         android:textStyle="bold"
-        tools:ignore="ButtonStyle"
-        android:textSize="15sp"/>
-</android.support.design.widget.CoordinatorLayout>
+        tools:ignore="ButtonStyle" />
+</FrameLayout>

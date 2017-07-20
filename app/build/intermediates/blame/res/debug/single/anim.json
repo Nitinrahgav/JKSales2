@@ -1,66 +1,66 @@
 [
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\f34cdb39c8840ccefa9b19608f31599012ed461b\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesNew\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\anim\\abc_slide_out_bottom.xml"
     }
 ]
