@@ -3,6 +3,7 @@ package com.jkpaper.jksales.Adapters;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -47,8 +48,24 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
     public void onBindViewHolder(MyViewHolder holder, final int position) {
         holder.textName.setText(menus.get(position).getMenuName());
         if(menus.get(position).getMenuAccess() == 0){
-            holder.cardMenu.setCardBackgroundColor(Color.parseColor("#64b5f6"));
+            holder.cardMenu.setCardBackgroundColor(Color.parseColor("#cfd8dc"));
         }else {
+            int colorRes = 0;
+            switch(position % 6) {
+                case 0: colorRes = R.color.colour1;
+                    break;
+                case 1: colorRes = R.color.colour2;
+                    break;
+                case 2: colorRes = R.color.colour3;
+                    break;
+                case 3: colorRes = R.color.colour6;
+                    break;
+                case 4: colorRes = R.color.colour4;
+                    break;
+                case 5: colorRes = R.color.colour5;
+                    break;
+            }
+            holder.cardMenu.setBackgroundColor(ContextCompat.getColor(context, colorRes));
             holder.cardMenu.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

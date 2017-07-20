@@ -4,7 +4,13 @@
     <color name="colorPrimaryDark">#0288d1</color>
     <color name="colorAccent">#ff4081</color>
     <color name="light_blue">#64b5f6</color>
-
+    <color name="colour1">#ff8d35</color>
+    <color name="colour2">#26c6da</color>
+    <color name="colour3">#7e57c2</color>
+    <color name="colour4">#3f51b5</color>
+    <color name="colour5">#00e676</color>
+    <color name="colour6">#ff4081</color>
     <color name="black_overlay">#66000000</color>
+    <color name="ihcs">#cfd8dc</color>
 </resources>
 

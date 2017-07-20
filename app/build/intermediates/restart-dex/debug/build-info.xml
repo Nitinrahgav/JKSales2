@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500569429765"
+    timestamp="1500580059749"
     token="-3854202494240276550"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1500569354382"
+        timestamp="1500579260891"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\build\outputs\apk\app-debug.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500569429765"
+        timestamp="1500580059749"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\build\outputs\apk\app-debug.apk"

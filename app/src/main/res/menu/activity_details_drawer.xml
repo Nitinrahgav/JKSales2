@@ -17,20 +17,47 @@
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Tools" />
+            android:title="Stock On Hand" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Outstanding Ageing" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Production Plan" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="QC Claim Status" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="CForm Status" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pending Order Zone" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pending Order Zone/ASM" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Product M/C Details" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="MRP of Products" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Landed Cost" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Consumar Details" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Order Booking" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Market Visit" />
+        <item
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="MOP" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
 
 </menu>

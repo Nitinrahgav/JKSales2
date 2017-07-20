@@ -24,7 +24,13 @@
         <activity
             android:name=".Activity.LoginActivity"
             android:label="@string/title_activity_login"
-            tools:ignore="InnerclassSeparator" />
+            tools:ignore="InnerclassSeparator" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Activity.DetailActivity"
             tools:ignore="InnerclassSeparator" />
@@ -33,11 +39,6 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
             android:theme="@style/FullscreenTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activity.MenuActivtyNav"
@@ -47,6 +48,13 @@
             android:name=".Activity.DetailsActivity"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.SigninActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_signin"
+            android:theme="@style/FullscreenTheme">
+
+        </activity>
     </application>
 
 </manifest>
