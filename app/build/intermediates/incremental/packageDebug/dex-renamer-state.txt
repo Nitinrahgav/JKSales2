@@ -1,7 +1,4 @@
-#Fri Jul 21 01:17:43 IST 2017
-base.0=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_84f7bac906fb71f0a82fa5b4c4b30066a8546947
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_429b459a9419f1ac9dd91c6de0884614ebcd9369\\classes.dex
-base.1=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_429b459a9419f1ac9dd91c6de0884614ebcd9369
-file.0=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_84f7bac906fb71f0a82fa5b4c4b30066a8546947\\classes.dex
+#Fri Jul 21 17:20:08 IST 2017
+base.0=C\:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

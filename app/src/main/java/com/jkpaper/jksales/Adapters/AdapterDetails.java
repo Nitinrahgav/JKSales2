@@ -1,10 +1,13 @@
 package com.jkpaper.jksales.Adapters;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.jkpaper.jksales.Models.Detail;
@@ -21,8 +24,10 @@ public class AdapterDetails extends RecyclerView.Adapter<AdapterDetails.MyViewHo
     }
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView tvDetail1, tvDetail2, tvDetail3, tvDetail4, tvDetail5, tvDetail6, tvDetail7, tvDetail8, tvDetail9;
+        LinearLayout linearLayout;
         public MyViewHolder(View itemView) {
             super(itemView);
+            linearLayout = (LinearLayout)itemView.findViewById(R.id.row_layout);
             tvDetail1 = (TextView)itemView.findViewById(R.id.tv_detail1);
             tvDetail2 = (TextView)itemView.findViewById(R.id.tv_detail2);
             tvDetail3 = (TextView)itemView.findViewById(R.id.tv_detail3);
@@ -41,6 +46,13 @@ public class AdapterDetails extends RecyclerView.Adapter<AdapterDetails.MyViewHo
     }
 
     public void onBindViewHolder(MyViewHolder holder, int position) {
+        if(position % 2 == 0){
+            holder.linearLayout.setBackgroundColor(ContextCompat.getColor(context, R.color.ihcs));
+        }
+        else {
+            holder.linearLayout.setBackgroundColor(ContextCompat.getColor(context, R.color.table_row));
+        }
+
         holder.tvDetail1.setText(details.get(position).getName());
         holder.tvDetail2.setText(details.get(position).getTgt());
         holder.tvDetail3.setText(details.get(position).getOrder());

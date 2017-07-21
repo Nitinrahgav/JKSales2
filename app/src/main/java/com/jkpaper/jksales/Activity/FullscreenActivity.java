@@ -32,7 +32,6 @@ public class FullscreenActivity extends AppCompatActivity {
             Window w = getWindow(); // in Activity's onCreate() for instance
             w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
         FrameLayout mContentView = (FrameLayout)findViewById(R.id.fullscreen_content);
         mContentView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE
                 | View.SYSTEM_UI_FLAG_FULLSCREEN

@@ -1,6 +1,9 @@
 package com.jkpaper.jksales.Activity;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.GridLayoutManager;
@@ -15,6 +18,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -38,22 +42,14 @@ public class MenuActivtyNav extends AppCompatActivity
     List<com.jkpaper.jksales.Models.Menu> menus = new ArrayList<>();
     RecyclerView recyclerView;
     public String url;
-
+    SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_activty_nav);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -105,14 +101,97 @@ public class MenuActivtyNav extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
+        if (id == R.id.home) {
+            Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
+            intent.putExtra("id",sharedPreferences.getString("id",""));
+            startActivity(intent);
+        } else if (id == R.id.profile) {
+            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.off_take_zone) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=1");
+            intent.putExtra("title","Off Take Zone");
+            startActivity(intent);
+        } else if (id == R.id.sales) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Sales");
+            startActivity(intent);
+        } else if (id == R.id.sales_asm_ws) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Sales ASM WS");
+            startActivity(intent);
+        } else if (id == R.id.stock_on_hand) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Stock On Hand");
+            startActivity(intent);
+        } else if (id == R.id.outstanding_ageing) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Outstanding Ageing");
+            startActivity(intent);
+        } else if (id == R.id.production_plan) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Production Plan");
+            startActivity(intent);
+        } else if (id == R.id.qc_claim_status) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","QC Claim Status");
+            startActivity(intent);
+        } else if (id == R.id.cform_status) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","CForm Status");
+            startActivity(intent);
+        } else if (id == R.id.pending_order_zone) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Pending Order Zone");
+            startActivity(intent);
+        } else if (id == R.id.pending_order_zone_asm) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Pending Order Zone / ASM");
+            startActivity(intent);
+        } else if (id == R.id.product_mc_details) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Product M/C Details");
+            startActivity(intent);
+        } else if (id == R.id.mrp_of_products) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","MRP of Products");
+            startActivity(intent);
+        } else if (id == R.id.landed_cost) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","landed Cost");
+            startActivity(intent);
+        } else if (id == R.id.consumer_details) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Consumer Details");
+            startActivity(intent);
+        } else if (id == R.id.order_booking) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Order Booking");
+            startActivity(intent);
+        } else if (id == R.id.market_visit) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","Market Visit");
+            startActivity(intent);
+        } else if (id == R.id.mop) {
+            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("title","MOP");
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -122,7 +201,7 @@ public class MenuActivtyNav extends AppCompatActivity
     private void initViews() {
         recyclerView = (RecyclerView)findViewById(R.id.card_recycler_view);
         recyclerView.setHasFixedSize(true);
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(),2);
+        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(),4);
         recyclerView.setLayoutManager(layoutManager);
     }
 

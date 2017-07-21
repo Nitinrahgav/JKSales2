@@ -12,5 +12,6 @@
     <color name="colour6">#ff4081</color>
     <color name="black_overlay">#66000000</color>
     <color name="ihcs">#cfd8dc</color>
+    <color name="table_row">#ffffff</color>
 </resources>
 

@@ -3,59 +3,80 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/off_take_zone"
+            android:icon="@drawable/ic_library_books_black_24dp"
             android:title="Off Take Zone" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/sales"
+            android:icon="@drawable/ic_developer_board_black_24dp"
             android:title="Sales" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/sales_asm_ws"
+            android:icon="@drawable/ic_assessment_black_24dp"
             android:title="Sales ASM WS" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/stock_on_hand"
+            android:icon="@drawable/ic_content_copy_black_24dp"
             android:title="Stock On Hand" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/outstanding_ageing"
+            android:icon="@drawable/ic_payment_black_24dp"
             android:title="Outstanding Ageing" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/production_plan"
+            android:icon="@drawable/ic_present_to_all_black_24dp"
             android:title="Production Plan" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/qc_claim_status"
+            android:icon="@drawable/ic_library_books_black_24dp"
             android:title="QC Claim Status" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/cform_status"
+            android:icon="@drawable/ic_developer_board_black_24dp"
             android:title="CForm Status" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/pending_order_zone"
+            android:icon="@drawable/ic_assessment_black_24dp"
             android:title="Pending Order Zone" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/pending_order_zone_asm"
+            android:icon="@drawable/ic_content_copy_black_24dp"
             android:title="Pending Order Zone/ASM" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/product_mc_details"
+            android:icon="@drawable/ic_payment_black_24dp"
             android:title="Product M/C Details" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/mrp_of_products"
+            android:icon="@drawable/ic_present_to_all_black_24dp"
             android:title="MRP of Products" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/landed_cost"
+            android:icon="@drawable/ic_library_books_black_24dp"
             android:title="Landed Cost" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Consumar Details" />
+            android:id="@+id/consumer_details"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Consumer Details" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/order_booking"
+            android:icon="@drawable/ic_developer_board_black_24dp"
             android:title="Order Booking" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/market_visit"
+            android:icon="@drawable/ic_content_copy_black_24dp"
             android:title="Market Visit" />
         <item
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/mop"
+            android:icon="@drawable/ic_payment_black_24dp"
             android:title="MOP" />
     </group>
 
