@@ -454,21 +454,36 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
 
                                 JSONObject obj_response=obj.getJSONObject("Response");
                                 JSONObject obj_status=obj_response.getJSONObject("status");
+                                JSONObject obj_data=obj_response.getJSONObject("data");
+                                final String msgFinal = obj_data.getString("msg");
+                                String statusFinal = obj_data.getString("status");
                                 String type=obj_status.getString("type");
                                 String message=obj_status.getString("message");
-                                if(Objects.equals(type, "1")){
-                                    runOnUiThread(new Runnable() {
-                                        @Override
-                                        public void run() {
-                                            showProgress(false);
-                                            loginFormLayout.setVisibility(View.GONE);
-                                            otpLayout.setVisibility(View.VISIBLE);
-                                        }
-                                    });
-                                    JSONObject obj_data=obj_response.getJSONObject("data");
-                                    JSONObject obj_user=obj_data.getJSONObject("user");
-                                    user_id=obj_user.getString("user_id");
-                                    initOtpViews();
+                                if(Objects.equals(type, "Success")){
+                                    if(Objects.equals(statusFinal,"1")){
+                                        runOnUiThread(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                showProgress(false);
+                                                loginFormLayout.setVisibility(View.GONE);
+                                                otpLayout.setVisibility(View.VISIBLE);
+                                            }
+                                        });
+                                        JSONObject obj_user=obj_data.getJSONObject("user");
+                                        user_id=obj_user.getString("user_id");
+                                        initOtpViews();
+                                    }else{
+                                        runOnUiThread(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                loginFaiedText.setText(msgFinal);
+                                                loginFaiedText.setVisibility(View.VISIBLE);
+                                            }
+                                        });
+
+                                    }
+
+
 
                                 }else{
                                     runOnUiThread(new Runnable() {
