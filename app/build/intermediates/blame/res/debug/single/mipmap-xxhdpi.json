@@ -14,5 +14,9 @@
     {
         "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\white_logo.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-xxhdpi\\white_logo.png"
     }
 ]

@@ -3,15 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
     tools:context="com.jkpaper.jksales.Activity.LoginActivity">
     <ImageView
         android:id="@+id/img"
-        android:layout_width="128dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
         android:layout_gravity="center_horizontal"
-        android:layout_height="100dp"
-        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/white_logo"
         android:contentDescription="@string/Logo"
         />
     <ProgressBar
@@ -40,7 +41,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="250dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:orientation="vertical">
@@ -68,6 +69,8 @@
                             android:layout_height="wrap_content"
                             android:paddingTop="30dp"
                             android:hint="@string/prompt_email"
+                            android:backgroundTint="@color/white"
+                            android:textColorHint="@color/white"
                             android:drawableRight="@drawable/user"
                             android:layout_gravity="center_horizontal"
                             android:inputType="textEmailAddress"
@@ -78,15 +81,18 @@
                             android:id="@+id/password"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:paddingTop="40dp"
-                            android:hint="@string/prompt_password"
                             android:layout_gravity="center_horizontal"
-                            android:imeActionId="@+id/login"
-                            android:imeActionLabel="@string/action_sign_in_short"
                             android:drawableRight="@drawable/ic_https_black_24dp"
+                            android:hint="@string/prompt_password"
+                            android:imeActionId="@+id/login"
+                            android:backgroundTint="@color/white"
+                            android:textColorHint="@color/white"
+                            android:imeActionLabel="@string/action_sign_in_short"
                             android:imeOptions="actionUnspecified"
                             android:inputType="textPassword"
-                            android:maxLines="1"/>
+                            android:maxLines="1"
+                            android:paddingTop="40dp" />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -102,7 +108,7 @@
                             android:layout_marginTop="50dp"
                             android:background="@drawable/shape_button"
                             android:text="@string/action_sign_in"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/white"
                             android:textSize="15sp"
                             android:textStyle="bold"
                             tools:ignore="ButtonStyle" />

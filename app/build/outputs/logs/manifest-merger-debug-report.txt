@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml
@@ -17,6 +17,7 @@ ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\Andro
 		INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.GET_ACCOUNTS
@@ -31,14 +32,32 @@ uses-permission#android.permission.READ_CONTACTS
 ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:11:5-72
 	android:name
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:11:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:14:5-79
+MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:14:22-76
 application
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:13:5-58:19
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:16:5-62:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:26:5-20
+MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:14:5-21:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\Ashish\.android\build-cache\a03acbc67d1b4fc9df1f751ee52c10da194fbcfc\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Ashish\.android\build-cache\856955cf982db8d219013ba222259d52bda4b941\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ashish\.android\build-cache\aa6ac29807a16a16479391aeca505dd32c83e1cb\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ashish\.android\build-cache\23f1996b8e14b5bde1356871e1eb6b16d3431bab\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ashish\.android\build-cache\c8b2f8cce5f2d52dd4b85fcf6b7a08ea8094d324\output\AndroidManifest.xml:29:5-20
@@ -46,94 +65,101 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Ashish\.androi
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Ashish\.android\build-cache\c633576f6440e017fd5e97ecb187501f9b601262\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ashish\.android\build-cache\23a816c38bbd977f4f6e13c6250725a40195e1f6\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:19:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:22:9-35
 	android:roundIcon
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:18:9-45
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:21:9-45
 	android:allowBackup
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:18:9-40
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:23:9-40
 	android:logo
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:17:9-38
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:20:9-38
 activity#com.jkpaper.jksales.Activity.MainActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:21:9-23:50
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:24:9-26:50
 	tools:ignore
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:23:13-47
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:26:13-47
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:22:13-50
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:25:13-50
 activity#com.jkpaper.jksales.Activity.LoginActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:24:9-28:20
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:27:9-32:20
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:26:13-57
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:29:13-57
 	tools:ignore
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:27:13-47
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:30:13-47
+	android:theme
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:31:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:25:13-51
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:28:13-51
 activity#com.jkpaper.jksales.Activity.DetailActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:29:9-31:50
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:33:9-35:50
 	tools:ignore
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:31:13-47
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:35:13-47
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:30:13-52
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:34:13-52
 activity#com.jkpaper.jksales.Activity.FullscreenActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:32:9-42:20
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:36:9-46:20
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:35:13-62
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:39:13-62
 	android:configChanges
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:34:13-74
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:38:13-74
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:36:13-51
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:40:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:37:13-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:40:17-77
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:44:27-74
 activity#com.jkpaper.jksales.Activity.MenuActivtyNav
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:43:9-46:59
-	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:45:13-68
-	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:46:13-56
-	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:44:13-52
-activity#com.jkpaper.jksales.Activity.DetailsActivity
 ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:47:9-50:59
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:49:13-59
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:49:13-68
 	android:theme
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:50:13-56
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:48:13-53
-activity#com.jkpaper.jksales.Activity.SigninActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:51:9-57:20
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:48:13-52
+activity#com.jkpaper.jksales.Activity.DetailsActivity
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:51:9-54:59
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:54:13-58
-	android:configChanges
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:53:13-74
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:53:13-59
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:55:13-51
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:52:13-52
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:52:13-53
+activity#com.jkpaper.jksales.Activity.SigninActivity
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:55:9-61:20
+	android:label
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:58:13-58
+	android:configChanges
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:57:13-74
+	android:theme
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:59:13-51
+	android:name
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:56:13-52
 uses-sdk
 INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\428b95e6d32e3a00b77c126b4c69afcb2255514a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\Ashish\.android\build-cache\a03acbc67d1b4fc9df1f751ee52c10da194fbcfc\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Ashish\.android\build-cache\856955cf982db8d219013ba222259d52bda4b941\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ashish\.android\build-cache\aa6ac29807a16a16479391aeca505dd32c83e1cb\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ashish\.android\build-cache\23f1996b8e14b5bde1356871e1eb6b16d3431bab\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ashish\.android\build-cache\c8b2f8cce5f2d52dd4b85fcf6b7a08ea8094d324\output\AndroidManifest.xml:21:5-23:63
@@ -150,12 +176,12 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ashish\.android
 		INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\428b95e6d32e3a00b77c126b4c69afcb2255514a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ashish\.android\build-cache\aa6ac29807a16a16479391aeca505dd32c83e1cb\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ashish\.android\build-cache\23f1996b8e14b5bde1356871e1eb6b16d3431bab\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ashish\.android\build-cache\c8b2f8cce5f2d52dd4b85fcf6b7a08ea8094d324\output\AndroidManifest.xml:25:5-27:34
@@ -166,3 +192,23 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ashish\.android
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:26:9-47
+service#com.akhgupta.easylocation.LocationBgService
+ADDED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:19:13-71
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:20:20-65
