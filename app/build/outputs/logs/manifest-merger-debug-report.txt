@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:2:1-65:12
 	package
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml
@@ -46,7 +46,7 @@ MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\b
 	android:name
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:14:22-76
 application
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:16:5-62:19
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:16:5-63:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:26:5-20
@@ -146,6 +146,10 @@ ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\Andro
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:59:13-51
 	android:name
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:56:13-52
+activity#com.jkpaper.jksales.Activity.WebViewActivity
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:62:9-61
+	android:name
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:62:19-59
 uses-sdk
 INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:21:5-23:62

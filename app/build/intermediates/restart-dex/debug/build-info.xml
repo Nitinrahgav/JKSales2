@@ -6,26 +6,23 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500752846084"
+    timestamp="1500753174513"
     token="-3854202494240276550"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="492" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="97" />
+        duration="0" />
     <task
         name="verifier"
-        duration="15" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -73,19 +70,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500752550281"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
         timestamp="1500752846084"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500753174513"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

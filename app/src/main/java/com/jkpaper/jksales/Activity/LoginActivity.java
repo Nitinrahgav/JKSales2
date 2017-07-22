@@ -96,7 +96,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
     private EditText mPasswordView, edtOtp;
     private View mProgressView;
     private View mLoginFormView;
-    String user_id, imeiNumber;
+    String user_id, imeiNumber, latitude, longitude;
     private LinearLayout otpLayout, loginFormLayout;
     TextView loginFaiedText;
     EasyLocationRequest easyLocationRequest;
@@ -375,6 +375,8 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
 
     @Override
     public void onLocationReceived(Location location) {
+        latitude = String.valueOf(location.getLatitude());
+        longitude = String.valueOf(location.getLongitude());
         Log.v("Lat", String.valueOf(location.getLatitude()));
         Log.v("lang", String.valueOf(location.getLongitude()));
     }
@@ -432,6 +434,8 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
                         .addFormDataPart("user", mEmail)
                         .addFormDataPart("pass", mPassword)
                         .addFormDataPart("imei",imeiNumber)
+                        .addFormDataPart("lat",latitude)
+                        .addFormDataPart("lang",longitude)
                         .build();
                 Request request = new Request.Builder().url(LOGIN_URL).addHeader("Token","d75542712c868c1690110db641ba01a").post(requestBody).build();
                 okhttp3.Call call = client.newCall(request);

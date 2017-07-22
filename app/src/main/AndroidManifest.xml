@@ -59,6 +59,7 @@
             android:theme="@style/FullscreenTheme">
 
         </activity>
+        <activity android:name=".Activity.WebViewActivity"/>
     </application>
 
 </manifest>
