@@ -82,6 +82,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mLoginFormView;
     String user_id;
     private LinearLayout otpLayout, loginFormLayout;
+    TextView loginFaiedText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,6 +96,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         loginFormLayout = (LinearLayout)findViewById(R.id.email_login_form);
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setNextFocusDownId(R.id.email_sign_in_button);
+        loginFaiedText = (TextView)findViewById(R.id.login_failed_text);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
@@ -191,9 +193,21 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         } else {
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
-            showProgress(true);
-            mAuthTask = new UserLoginTask(email, password);
-            mAuthTask.execute((Void) null);
+
+            if(email.length() > 0){
+                if(password.length() > 0){
+                    showProgress(true);
+                    mAuthTask = new UserLoginTask(email, password);
+                    mAuthTask.execute((Void) null);
+                }else{
+                    loginFaiedText.setText("Please enter password.");
+                    loginFaiedText.setVisibility(View.VISIBLE);
+                }
+            }else{
+                loginFaiedText.setText("Please enter username.");
+                loginFaiedText.setVisibility(View.VISIBLE);
+            }
+
         }
     }
 
@@ -314,6 +328,13 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         @Override
         protected Boolean doInBackground(Void... params) {
             // TODO: attempt authentication against a network service.
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    loginFaiedText.setVisibility(View.GONE);
+                    showProgress(true);
+                }
+            });
 
             try {
                 OkHttpClient client = new OkHttpClient();
@@ -337,7 +358,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                     @Override
                     public void onResponse(Call call, okhttp3.Response response) throws IOException {
-
                         try {
                             String resp = response.body().string();
 
@@ -347,25 +367,37 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                 String type=obj_status.getString("type");
                                 String message=obj_status.getString("message");
                                 if(Objects.equals(type, "Success")){
-                                    JSONObject obj_data=obj_response.getJSONObject("data");
-                                    JSONObject obj_user=obj_data.getJSONObject("user");
-                                    user_id=obj_user.getString("user_id");
                                     runOnUiThread(new Runnable() {
                                         @Override
                                         public void run() {
+                                            showProgress(false);
                                             loginFormLayout.setVisibility(View.GONE);
                                             otpLayout.setVisibility(View.VISIBLE);
                                         }
                                     });
-
+                                    JSONObject obj_data=obj_response.getJSONObject("data");
+                                    JSONObject obj_user=obj_data.getJSONObject("user");
+                                    user_id=obj_user.getString("user_id");
                                     initOtpViews();
 
                                 }else{
-                                    Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
+                                    runOnUiThread(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            loginFaiedText.setVisibility(View.VISIBLE);
+                                        }
+                                    });
                                 }
                             }
                             catch (JSONException e)
                             {
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        loginFaiedText.setVisibility(View.VISIBLE);
+                                    }
+                                });
+
                                 e.printStackTrace();
                             }
                             Log.v("Response", resp);
@@ -375,6 +407,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                 //
                             }
                         } catch (IOException e) {
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    loginFaiedText.setVisibility(View.VISIBLE);
+                                }
+                            });
                             System.out.println("Exception caught" + e.getMessage());
                         }
                     }

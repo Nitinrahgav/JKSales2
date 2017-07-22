@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\app_logo.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-mdpi\\app_logo.png"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\nav_draw_background.png",
-        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\mipmap-mdpi\\nav_draw_background.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\app_logo.png",
-        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\mipmap-mdpi\\app_logo.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\nav_draw_background.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-mdpi\\nav_draw_background.png"
     }
 ]

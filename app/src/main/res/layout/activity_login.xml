@@ -7,13 +7,21 @@
     tools:context="com.jkpaper.jksales.Activity.LoginActivity">
     <ImageView
         android:id="@+id/img"
-        android:layout_width="match_parent"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_width="128dp"
         android:layout_marginTop="30dp"
-        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100dp"
+        android:visibility="gone"
         android:contentDescription="@string/Logo"
-        android:background="@drawable/logoo" />
+        />
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -22,13 +30,7 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="35dp">
         <!-- Login progress -->
-        <ProgressBar
-            android:id="@+id/login_progress"
-            style="?android:attr/progressBarStyleLarge"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:visibility="gone"/>
+
 
         <android.support.v4.widget.NestedScrollView
             android:id="@+id/login_form"
@@ -38,7 +40,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="250dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -64,6 +68,7 @@
                             android:layout_height="wrap_content"
                             android:paddingTop="30dp"
                             android:hint="@string/prompt_email"
+                            android:drawableRight="@drawable/user"
                             android:layout_gravity="center_horizontal"
                             android:inputType="textEmailAddress"
                             android:maxLines="1"/>
@@ -78,13 +83,37 @@
                             android:layout_gravity="center_horizontal"
                             android:imeActionId="@+id/login"
                             android:imeActionLabel="@string/action_sign_in_short"
+                            android:drawableRight="@drawable/ic_https_black_24dp"
                             android:imeOptions="actionUnspecified"
                             android:inputType="textPassword"
                             android:maxLines="1"/>
-
-
-
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Login Failed, Please enter correct Username &amp; Password."
+                            android:textColor="#ff1744"
+                            android:visibility="gone"
+                            android:id="@+id/login_failed_text"/>
+                        <Button
+                            android:id="@+id/email_sign_in_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="50dp"
+                            android:background="@drawable/shape_button"
+                            android:text="@string/action_sign_in"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            tools:ignore="ButtonStyle" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="Forgot Password?"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorAccent"/>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -120,15 +149,5 @@
         </android.support.v4.widget.NestedScrollView>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/email_sign_in_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="@color/colorPrimary"
-        android:text="@string/action_sign_in"
-        android:textColor="#ffffff"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        tools:ignore="ButtonStyle" />
+
 </FrameLayout>
