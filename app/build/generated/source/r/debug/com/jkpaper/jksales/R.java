@@ -3225,15 +3225,16 @@ containing a value of this type.
         public static final int menu_activty_nav=0x7f0e0003;
     }
     public static final class mipmap {
-        public static final int app_logo=0x7f030000;
-        public static final int city_background=0x7f030001;
-        public static final int ic_launcher=0x7f030002;
-        public static final int ic_launcher_round=0x7f030003;
-        public static final int nav_draw_background=0x7f030004;
-        public static final int right_arrow=0x7f030005;
-        public static final int splash=0x7f030006;
-        public static final int splash_image=0x7f030007;
-        public static final int white_logo=0x7f030008;
+        public static final int apax_logo=0x7f030000;
+        public static final int app_logo=0x7f030001;
+        public static final int city_background=0x7f030002;
+        public static final int ic_launcher=0x7f030003;
+        public static final int ic_launcher_round=0x7f030004;
+        public static final int nav_draw_background=0x7f030005;
+        public static final int right_arrow=0x7f030006;
+        public static final int splash=0x7f030007;
+        public static final int splash_image=0x7f030008;
+        public static final int white_logo=0x7f030009;
     }
     public static final class string {
         public static final int Logo=0x7f070026;

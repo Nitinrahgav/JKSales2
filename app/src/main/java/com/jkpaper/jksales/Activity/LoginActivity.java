@@ -1,5 +1,6 @@
 package com.jkpaper.jksales.Activity;
 
+import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.SuppressLint;
@@ -16,6 +17,7 @@ import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.app.LoaderManager.LoaderCallbacks;
@@ -96,7 +98,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
     private EditText mPasswordView, edtOtp;
     private View mProgressView;
     private View mLoginFormView;
-    String user_id, imeiNumber, latitude, longitude;
+    String user_id, imeiNumber, latitude = "null", longitude = "null";
     private LinearLayout otpLayout, loginFormLayout;
     TextView loginFaiedText;
     EasyLocationRequest easyLocationRequest;
@@ -170,6 +172,12 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
             return true;
         }
+        int PERMISSION_ALL = 1;
+        String[] PERMISSIONS = {Manifest.permission.READ_PHONE_STATE, Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION};
+
+        if(!hasPermissions(this, PERMISSIONS)){
+            ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
+        }
         if (checkSelfPermission(READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
             return true;
         }
@@ -187,7 +195,16 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
         }
         return false;
     }
-
+    public static boolean hasPermissions(Context context, String... permissions) {
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && context != null && permissions != null) {
+            for (String permission : permissions) {
+                if (ActivityCompat.checkSelfPermission(context, permission) != PackageManager.PERMISSION_GRANTED) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
     /**
      * Callback received when a permissions request has been completed.
      */
@@ -427,8 +444,6 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
 
             try {
                 OkHttpClient client = new OkHttpClient();
-                Log.v("Lat",latitude);
-                Log.v("long",longitude);
                 RequestBody requestBody = new MultipartBody.Builder()
                         .setType(MultipartBody.FORM)
                         .addFormDataPart("user", mEmail)

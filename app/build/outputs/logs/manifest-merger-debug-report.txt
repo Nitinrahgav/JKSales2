@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml
@@ -46,7 +46,7 @@ MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\b
 	android:name
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:14:22-76
 application
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:16:5-63:19
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:16:5-62:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:26:5-20
@@ -67,89 +67,87 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ashish\.android
 	android:label
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:19:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:22:9-35
-	android:roundIcon
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:21:9-45
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:21:9-35
 	android:allowBackup
 		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:18:9-41
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:23:9-40
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:22:9-40
 	android:logo
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:20:9-38
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:20:9-41
 activity#com.jkpaper.jksales.Activity.MainActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:24:9-26:50
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:23:9-25:50
 	tools:ignore
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:26:13-47
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:25:13-47
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:25:13-50
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:24:13-50
 activity#com.jkpaper.jksales.Activity.LoginActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:27:9-32:20
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:26:9-31:20
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:29:13-57
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:28:13-57
 	tools:ignore
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:30:13-47
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:29:13-47
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:31:13-51
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:30:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:28:13-51
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:27:13-51
 activity#com.jkpaper.jksales.Activity.DetailActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:33:9-35:50
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:32:9-34:50
 	tools:ignore
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:35:13-47
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:34:13-47
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:34:13-52
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:33:13-52
 activity#com.jkpaper.jksales.Activity.FullscreenActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:36:9-46:20
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:35:9-45:20
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:39:13-62
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:38:13-62
 	android:configChanges
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:38:13-74
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:37:13-74
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:40:13-51
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:39:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:37:13-56
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:36:13-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:44:27-74
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:43:27-74
 activity#com.jkpaper.jksales.Activity.MenuActivtyNav
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:47:9-50:59
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:46:9-49:59
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:49:13-68
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:48:13-68
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:50:13-56
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:48:13-52
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:47:13-52
 activity#com.jkpaper.jksales.Activity.DetailsActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:51:9-54:59
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:50:9-53:59
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:53:13-59
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:52:13-59
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:52:13-53
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:51:13-53
 activity#com.jkpaper.jksales.Activity.SigninActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:55:9-61:20
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:54:9-60:20
 	android:label
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:58:13-58
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:57:13-58
 	android:configChanges
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:57:13-74
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:56:13-74
 	android:theme
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:59:13-51
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:58:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:56:13-52
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:55:13-52
 activity#com.jkpaper.jksales.Activity.WebViewActivity
-ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:62:9-61
+ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:61:9-61
 	android:name
-		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:62:19-59
+		ADDED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml:61:19-59
 uses-sdk
 INJECTED from C:\Users\Ashish\Desktop\AndroidRTC-master\JKSales2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:21:5-23:62
