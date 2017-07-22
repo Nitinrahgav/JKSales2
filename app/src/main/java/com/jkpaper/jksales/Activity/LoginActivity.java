@@ -120,6 +120,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
                 .setLocationRequest(locationRequest)
                 .setFallBackToLastLocationTime(3000)
                 .build();
+        requestSingleLocationFix(easyLocationRequest);
 
         edtOtp = (EditText)findViewById(R.id.edt_otp);
         otpLayout = (LinearLayout)findViewById(R.id.linear_layout_otp);
@@ -208,7 +209,6 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
      * errors are presented and no actual login attempt is made.
      */
     private void attemptLogin() {
-        requestSingleLocationFix(easyLocationRequest);
         if (mAuthTask != null) {
             return;
         }
@@ -377,8 +377,6 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
     public void onLocationReceived(Location location) {
         latitude = String.valueOf(location.getLatitude());
         longitude = String.valueOf(location.getLongitude());
-        Log.v("Lat", String.valueOf(location.getLatitude()));
-        Log.v("lang", String.valueOf(location.getLongitude()));
     }
 
     @Override
@@ -429,6 +427,8 @@ public class LoginActivity extends EasyLocationAppCompatActivity implements Load
 
             try {
                 OkHttpClient client = new OkHttpClient();
+                Log.v("Lat",latitude);
+                Log.v("long",longitude);
                 RequestBody requestBody = new MultipartBody.Builder()
                         .setType(MultipartBody.FORM)
                         .addFormDataPart("user", mEmail)
