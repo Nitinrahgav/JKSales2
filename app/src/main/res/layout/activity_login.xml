@@ -6,154 +6,159 @@
     android:background="@color/colorPrimary"
     android:orientation="vertical"
     tools:context="com.jkpaper.jksales.Activity.LoginActivity">
-    <ImageView
-        android:id="@+id/img"
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/white_logo"
-        android:contentDescription="@string/Logo"
-        />
-    <ProgressBar
-        android:id="@+id/login_progress"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:visibility="gone"/>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:layout_gravity="center_vertical|center_horizontal"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="35dp">
-        <!-- Login progress -->
-
-
-        <android.support.v4.widget.NestedScrollView
-            android:id="@+id/login_form"
+        android:layout_height="wrap_content">
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_marginTop="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/white_logo"
+                android:contentDescription="@string/Logo"
+                />
+            <ProgressBar
+                android:id="@+id/login_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="250dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
                 android:orientation="vertical">
+                <!-- Login progress -->
 
-                <LinearLayout
-                    android:id="@+id/email_login_form"
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/login_form"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:focusableInTouchMode="true"
-                    android:orientation="horizontal">
-
+                    android:layout_height="match_parent">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:paddingTop="40dp">
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
 
-
-                        <AutoCompleteTextView
-
-                            android:id="@+id/email"
+                        <LinearLayout
+                            android:id="@+id/email_login_form"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:paddingTop="30dp"
-                            android:hint="@string/prompt_email"
-                            android:backgroundTint="@color/white"
-                            android:textColorHint="@color/white"
-                            android:drawableRight="@drawable/user"
-                            android:layout_gravity="center_horizontal"
-                            android:inputType="textEmailAddress"
-                            android:maxLines="1"/>
+
+                            android:focusableInTouchMode="true"
+                            android:orientation="horizontal">
 
 
-                        <EditText
-                            android:id="@+id/password"
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingTop="40dp">
+
+
+                                <AutoCompleteTextView
+
+                                    android:id="@+id/email"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="30dp"
+                                    android:hint="@string/prompt_email"
+                                    android:backgroundTint="@color/white"
+                                    android:textColorHint="@color/white"
+                                    android:drawableRight="@drawable/user"
+                                    android:layout_gravity="center_horizontal"
+                                    android:inputType="textEmailAddress"
+                                    android:maxLines="1"/>
+
+
+                                <EditText
+                                    android:id="@+id/password"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:drawableRight="@drawable/ic_https_black_24dp"
+                                    android:hint="@string/prompt_password"
+                                    android:imeActionId="@+id/login"
+                                    android:backgroundTint="@color/white"
+                                    android:textColorHint="@color/white"
+                                    android:imeActionLabel="@string/action_sign_in_short"
+                                    android:imeOptions="actionUnspecified"
+                                    android:inputType="textPassword"
+                                    android:maxLines="1"
+                                    android:paddingTop="40dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Login Failed, Please enter correct Username &amp; Password."
+                                    android:textColor="#ff1744"
+                                    android:visibility="gone"
+                                    android:id="@+id/login_failed_text"/>
+                                <Button
+                                    android:id="@+id/email_sign_in_button"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginTop="50dp"
+                                    android:background="@drawable/shape_button"
+                                    android:text="@string/action_sign_in"
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    tools:ignore="ButtonStyle" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:text="Forgot Password?"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/colorAccent"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:drawableRight="@drawable/ic_https_black_24dp"
-                            android:hint="@string/prompt_password"
-                            android:imeActionId="@+id/login"
-                            android:backgroundTint="@color/white"
-                            android:textColorHint="@color/white"
-                            android:imeActionLabel="@string/action_sign_in_short"
-                            android:imeOptions="actionUnspecified"
-                            android:inputType="textPassword"
-                            android:maxLines="1"
-                            android:paddingTop="40dp" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Login Failed, Please enter correct Username &amp; Password."
-                            android:textColor="#ff1744"
+                            android:orientation="vertical"
                             android:visibility="gone"
-                            android:id="@+id/login_failed_text"/>
-                        <Button
-                            android:id="@+id/email_sign_in_button"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginTop="50dp"
-                            android:background="@drawable/shape_button"
-                            android:text="@string/action_sign_in"
-                            android:textColor="@color/white"
-                            android:textSize="15sp"
-                            android:textStyle="bold"
-                            tools:ignore="ButtonStyle" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="30dp"
-                            android:text="Forgot Password?"
-                            android:gravity="center"
-                            android:textStyle="bold"
-                            android:textColor="@color/colorAccent"/>
+                            android:id="@+id/linear_layout_otp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="50dp"
+                                android:text="Enter OTP"
+                                android:textColor="#1B72D6"
+                                android:textSize="30sp"
+                                android:textAlignment="center"
+                                android:textColorHint="#D6D7D7"/>
+
+                            <EditText
+                                android:layout_width="120dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"
+                                android:maxLength="4"
+                                android:textAlignment="center"
+                                android:id="@+id/edt_otp"
+                                android:maxLines="1"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
                     </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:visibility="gone"
-                    android:id="@+id/linear_layout_otp">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="50dp"
-                        android:text="Enter OTP"
-                        android:textColor="#1B72D6"
-                        android:textSize="30sp"
-                        android:textAlignment="center"
-                        android:textColorHint="#D6D7D7"/>
-
-                    <EditText
-                        android:layout_width="120dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:maxLength="4"
-                        android:textAlignment="center"
-                        android:id="@+id/edt_otp"
-                        android:maxLines="1"
-                        android:layout_height="wrap_content"/>
-                </LinearLayout>
-
+                </android.support.v4.widget.NestedScrollView>
             </LinearLayout>
-        </android.support.v4.widget.NestedScrollView>
-    </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
 
 
 </FrameLayout>
