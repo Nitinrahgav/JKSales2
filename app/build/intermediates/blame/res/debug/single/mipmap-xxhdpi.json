@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-xxhdpi\\apax_logo.png"
     },
     {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\apex_logo_login.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-xxhdpi\\apex_logo_login.png"
+    },
+    {
         "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },

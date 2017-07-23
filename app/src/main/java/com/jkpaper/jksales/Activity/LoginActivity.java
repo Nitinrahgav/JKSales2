@@ -63,6 +63,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Random;
+
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.MultipartBody;
@@ -97,6 +99,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
     private View mProgressView;
     private View mLoginFormView;
     String user_id, imeiNumber = "null", latitude = "null", longitude = "null";
+    int randomOTP;
     private LinearLayout otpLayout, loginFormLayout;
     TextView loginFaiedText;
     EasyLocationRequest easyLocationRequest;
@@ -122,7 +125,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setNextFocusDownId(R.id.email_sign_in_button);
         loginFaiedText = (TextView)findViewById(R.id.login_failed_text);
-        mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+        /*mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
                 if (id == R.id.login || id == EditorInfo.IME_NULL) {
@@ -131,7 +134,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                 }
                 return false;
             }
-        });
+        });*/
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
@@ -346,6 +349,9 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                     showProgress(true);
                 }
             });
+            Random r = new Random();
+            randomOTP = r.nextInt(9999 - 1000) + 1000;
+            //Log.d("Otp", String.valueOf(randomOTP));
 
             try {
                 OkHttpClient client = new OkHttpClient();
@@ -356,6 +362,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                         .addFormDataPart("imei",imeiNumber)
                         .addFormDataPart("lat",latitude)
                         .addFormDataPart("lang",longitude)
+                        .addFormDataPart("otp", String.valueOf(randomOTP))
                         .build();
                 Request request = new Request.Builder().url(LOGIN_URL).addHeader("Token","d75542712c868c1690110db641ba01a").post(requestBody).build();
                 okhttp3.Call call = client.newCall(request);
@@ -489,8 +496,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(s.length() == 4){
-                    Log.d("sequece",s.toString());
-                    if(Objects.equals(s.toString(), "3489")){
+                    if(Integer.parseInt(String.valueOf(s)) == randomOTP){
                         Toast.makeText(getApplicationContext(),"You have successfully logged in",Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
                         intent.putExtra("id",user_id);

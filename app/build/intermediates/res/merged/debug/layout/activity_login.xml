@@ -16,12 +16,15 @@
             <ImageView
                 android:id="@+id/img"
                 android:layout_width="match_parent"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="30dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/white_logo"
-                android:contentDescription="@string/Logo"
-                />
+                android:contentDescription="@string/Logo" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/apex_logo_login"/>
             <ProgressBar
                 android:id="@+id/login_progress"
                 style="?android:attr/progressBarStyleLarge"
@@ -75,6 +78,7 @@
                                     android:backgroundTint="@color/white"
                                     android:textColorHint="@color/white"
                                     android:drawableRight="@drawable/user"
+                                    android:imeActionId="@+id/password"
                                     android:layout_gravity="center_horizontal"
                                     android:inputType="textEmailAddress"
                                     android:maxLines="1"/>
@@ -87,7 +91,7 @@
                                     android:layout_gravity="center_horizontal"
                                     android:drawableRight="@drawable/ic_https_black_24dp"
                                     android:hint="@string/prompt_password"
-                                    android:imeActionId="@+id/login"
+                                    android:imeActionId="@+id/email_sign_in_button"
                                     android:backgroundTint="@color/white"
                                     android:textColorHint="@color/white"
                                     android:imeActionLabel="@string/action_sign_in_short"
