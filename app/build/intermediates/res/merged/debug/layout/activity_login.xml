@@ -152,6 +152,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginTop="20dp"
                                 android:maxLength="4"
+                                android:inputType="numberPassword"
                                 android:textAlignment="center"
                                 android:id="@+id/edt_otp"
                                 android:maxLines="1"

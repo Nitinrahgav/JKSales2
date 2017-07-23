@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jul 23 23:44:52 IST 2017
+#Mon Jul 24 00:09:08 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v16\\notification_template_custom_big.xml
 14.set=ANDROID_RESOURCE
