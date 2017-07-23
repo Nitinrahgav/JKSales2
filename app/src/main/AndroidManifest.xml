@@ -4,7 +4,7 @@
     package="com.jkpaper.jksales">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -21,9 +21,8 @@
         <activity
             android:name=".Activity.LoginActivity"
             android:label="@string/title_activity_login"
-            tools:ignore="InnerclassSeparator"
-            android:theme="@style/FullscreenTheme">
-        </activity>
+            android:theme="@style/FullscreenTheme"
+            tools:ignore="InnerclassSeparator"></activity>
         <activity
             android:name=".Activity.DetailActivity"
             tools:ignore="InnerclassSeparator" />
@@ -50,10 +49,11 @@
             android:name=".Activity.SigninActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_signin"
-            android:theme="@style/FullscreenTheme">
-
-        </activity>
-        <activity android:name=".Activity.WebViewActivity"/>
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name=".Activity.WebViewActivityNav"
+            android:label="@string/title_activity_web_view_nav"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

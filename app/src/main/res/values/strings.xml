@@ -29,4 +29,5 @@
     <string name="title_activity_details">DetailsActivity</string>
 
     <string name="title_activity_signin">SigninActivity</string>
+    <string name="title_activity_web_view_nav">WebViewActivityNav</string>
 </resources>

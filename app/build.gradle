@@ -35,7 +35,8 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.6.0'
     compile 'com.flaviofaria:kenburnsview:1.0.7'
     compile 'com.akhgupta:android-easylocation:1.0.1'
-    compile "com.google.android.gms:play-services-location:11.0.2"
+    compile 'com.google.android.gms:play-services-location:11.0.2'
     compile 'gun0912.ted:tedpermission:1.0.3'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }

@@ -133,7 +133,7 @@ public class MenuActivtyNav extends AppCompatActivity
             intent.putExtra("title","Sales ASM WS");
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
-            Intent intent = new Intent(getApplicationContext(), WebViewActivity.class);
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock.php");
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);

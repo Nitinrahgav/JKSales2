@@ -28,8 +28,7 @@
         <activity
             android:name="com.jkpaper.jksales.Activity.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/FullscreenTheme" >
-        </activity>
+            android:theme="@style/FullscreenTheme" />
         <activity android:name="com.jkpaper.jksales.Activity.DetailActivity" />
         <activity
             android:name="com.jkpaper.jksales.Activity.FullscreenActivity"
@@ -54,9 +53,11 @@
             android:name="com.jkpaper.jksales.Activity.SigninActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_signin"
-            android:theme="@style/FullscreenTheme" >
-        </activity>
-        <activity android:name="com.jkpaper.jksales.Activity.WebViewActivity" />
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.jkpaper.jksales.Activity.WebViewActivityNav"
+            android:label="@string/title_activity_web_view_nav"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service
             android:name="com.akhgupta.easylocation.LocationBgService"
