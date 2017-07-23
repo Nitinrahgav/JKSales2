@@ -25,7 +25,8 @@
             tools:ignore="InnerclassSeparator"></activity>
         <activity
             android:name=".Activity.DetailActivity"
-            tools:ignore="InnerclassSeparator" />
+            tools:ignore="InnerclassSeparator"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name=".Activity.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -40,20 +41,23 @@
         <activity
             android:name=".Activity.MenuActivtyNav"
             android:label="@string/title_activity_menu_activty_nav"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name=".Activity.DetailsActivity"
             android:label="@string/title_activity_details"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize" />
         <activity
             android:name=".Activity.SigninActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_signin"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".Activity.WebViewActivityNav"
             android:label="@string/title_activity_web_view_nav"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize"/>
     </application>
 
 </manifest>

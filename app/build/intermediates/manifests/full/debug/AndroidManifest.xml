@@ -29,7 +29,9 @@
             android:name="com.jkpaper.jksales.Activity.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name="com.jkpaper.jksales.Activity.DetailActivity" />
+        <activity
+            android:name="com.jkpaper.jksales.Activity.DetailActivity"
+            android:configChanges="orientation|screenSize" />
         <activity
             android:name="com.jkpaper.jksales.Activity.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -43,10 +45,12 @@
         </activity>
         <activity
             android:name="com.jkpaper.jksales.Activity.MenuActivtyNav"
+            android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_menu_activty_nav"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.jkpaper.jksales.Activity.DetailsActivity"
+            android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -56,6 +60,7 @@
             android:theme="@style/FullscreenTheme" />
         <activity
             android:name="com.jkpaper.jksales.Activity.WebViewActivityNav"
+            android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_web_view_nav"
             android:theme="@style/AppTheme.NoActionBar" />
 
