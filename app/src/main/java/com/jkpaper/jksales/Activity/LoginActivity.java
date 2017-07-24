@@ -101,7 +101,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
     String user_id, imeiNumber = "null", latitude = "null", longitude = "null";
     int randomOTP;
     private LinearLayout otpLayout, loginFormLayout;
-    TextView loginFaiedText;
+    TextView loginFaiedText, tvResendOTP;
     EasyLocationRequest easyLocationRequest;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -125,6 +125,13 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setNextFocusDownId(R.id.email_sign_in_button);
         loginFaiedText = (TextView)findViewById(R.id.login_failed_text);
+        tvResendOTP = (TextView)findViewById(R.id.tv_resend_otp);
+        tvResendOTP.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                attemptLogin();
+            }
+        });
         /*mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
@@ -467,7 +474,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
         @Override
         protected void onPostExecute(final Boolean success) {
             mAuthTask = null;
-            showProgress(false);
+            //showProgress(false);
 
             if (success) {
 

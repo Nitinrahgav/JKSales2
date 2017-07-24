@@ -128,9 +128,9 @@ public class MenuActivtyNav extends AppCompatActivity
             intent.putExtra("title","Sales");
             startActivity(intent);
         } else if (id == R.id.sales_asm_ws) {
-            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
-            intent.putExtra("title","Sales ASM WS");
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock1.php");
+            intent.putExtra("label","Stock On Hand");
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
