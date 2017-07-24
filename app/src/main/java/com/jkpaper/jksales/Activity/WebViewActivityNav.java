@@ -7,7 +7,9 @@ import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
+import android.util.Log;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -32,7 +34,7 @@ public class WebViewActivityNav extends AppCompatActivity
     String url;
     ProgressBar mProgress;
     ProgressBar crpv;
-    TextView tvProgress, tvLoading;
+    TextView tvProgress, tvLoading, tvUserName, tvUserEmail;
     SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,12 +42,14 @@ public class WebViewActivityNav extends AppCompatActivity
         setContentView(R.layout.activity_web_view_nav);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         url = getIntent().getStringExtra("url_web_view");
+        Log.d("url",url);
         if(getIntent().getStringExtra("label") != null){
             ActionBar actionBar = getSupportActionBar();
             actionBar.setTitle(getIntent().getStringExtra("label"));
         }
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
         //mProgress = (ProgressBar)findViewById(R.id.progress_web_view);
         tvLoading = (TextView)findViewById(R.id.tv_loading_webview);
         crpv = (ProgressBar) findViewById(R.id.progress_web_view);
@@ -123,6 +127,12 @@ public class WebViewActivityNav extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        View header = LayoutInflater.from(this).inflate(R.layout.nav_header_web_view_activity_nav, null);
+        navigationView.addHeaderView(header);
+        tvUserName = (TextView)header.findViewById(R.id.tv_user_name_webview);
+        tvUserEmail = (TextView)header.findViewById(R.id.tv_user_email_webview);
+        tvUserName.setText(sharedPreferences.getString("user_name",""));
+        tvUserEmail.setText(sharedPreferences.getString("user_email",""));
     }
 
     @Override

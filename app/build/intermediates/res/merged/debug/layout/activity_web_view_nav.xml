@@ -19,7 +19,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_web_view_activity_nav"
         app:menu="@menu/activity_web_view_nav_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

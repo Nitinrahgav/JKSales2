@@ -103,6 +103,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
     private LinearLayout otpLayout, loginFormLayout;
     TextView loginFaiedText, tvResendOTP;
     EasyLocationRequest easyLocationRequest;
+    SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -126,6 +127,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
         mPasswordView.setNextFocusDownId(R.id.email_sign_in_button);
         loginFaiedText = (TextView)findViewById(R.id.login_failed_text);
         tvResendOTP = (TextView)findViewById(R.id.tv_resend_otp);
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         tvResendOTP.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -409,6 +411,9 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                                         });
                                         JSONObject obj_user=obj_data.getJSONObject("user");
                                         user_id=obj_user.getString("user_id");
+                                        sharedPreferences.edit().putString("user_id", user_id).apply();
+                                        sharedPreferences.edit().putString("user_name", obj_user.get("user_full_name").toString()).apply();
+                                        sharedPreferences.edit().putString("user_email", obj_user.get("user_email").toString()).apply();
                                         initOtpViews();
                                     }else{
                                         runOnUiThread(new Runnable() {

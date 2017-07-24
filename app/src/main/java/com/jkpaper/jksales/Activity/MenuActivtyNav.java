@@ -10,6 +10,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -19,6 +20,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -44,6 +46,7 @@ public class MenuActivtyNav extends AppCompatActivity
     RecyclerView recyclerView;
     public String url;
     SharedPreferences sharedPreferences;
+    TextView tvUserName, tvUserEmail;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +54,7 @@ public class MenuActivtyNav extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -60,6 +64,12 @@ public class MenuActivtyNav extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        View header = LayoutInflater.from(this).inflate(R.layout.nav_header_menu_activty_nav, null);
+        navigationView.addHeaderView(header);
+        tvUserName = (TextView)header.findViewById(R.id.tv_user_name_menu);
+        tvUserEmail = (TextView)header.findViewById(R.id.tv_user_email_menu);
+        tvUserName.setText(sharedPreferences.getString("user_name",""));
+        tvUserEmail.setText(sharedPreferences.getString("user_email",""));
         initViews();
         loadResponse();
     }

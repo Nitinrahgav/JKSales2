@@ -81,7 +81,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
                 public void onClick(View v) {
                     String url = menus.get(position).getMenuApi();
                     Intent intent = new Intent(context, WebViewActivityNav.class);
-                    intent.putExtra("url",url);
+                    intent.putExtra("url_web_view",url);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     intent.putExtra("label",menus.get(position).getMenuName());
                     context.startActivity(intent);
