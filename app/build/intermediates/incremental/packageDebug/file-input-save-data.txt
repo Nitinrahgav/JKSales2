@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jul 25 00:16:56 IST 2017
+#Tue Jul 25 00:23:09 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item.xml
 14.set=ANDROID_RESOURCE

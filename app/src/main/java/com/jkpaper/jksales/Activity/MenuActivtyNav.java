@@ -138,9 +138,9 @@ public class MenuActivtyNav extends AppCompatActivity
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);
         } else if (id == R.id.outstanding_ageing) {
-            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
-            intent.putExtra("title","Outstanding Ageing");
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/outstanding.php");
+            intent.putExtra("label","Outstanding Ageing");
             startActivity(intent);
         } else if (id == R.id.production_plan) {
             Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
