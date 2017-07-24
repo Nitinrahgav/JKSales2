@@ -134,7 +134,7 @@ public class MenuActivtyNav extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock.php");
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock1.php");
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);
         } else if (id == R.id.outstanding_ageing) {
@@ -216,7 +216,7 @@ public class MenuActivtyNav extends AppCompatActivity
     }
 
     private void loadResponse() {
-        url = "http://www.nitinraghav.com/jkapi/get_menus.php?user_id="+getIntent().getExtras().getString("id");
+        url = "http://www.nitinraghav.com/jkapi/get_menu.php?user_id="+getIntent().getExtras().getString("id");
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();

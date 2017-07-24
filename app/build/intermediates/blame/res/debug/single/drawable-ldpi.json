@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_visibility_off_black_24dp.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_visibility_off_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_assessment_black_24dp.png",
         "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_assessment_black_24dp.png"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_present_to_all_black_24dp.png",
         "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_present_to_all_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_visibility_black_24dp.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_visibility_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\user.png",

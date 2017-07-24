@@ -94,7 +94,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
     private UserLoginTask mAuthTask = null;
 
     // UI references.
-    private AutoCompleteTextView mEmailView;
+    private EditText mEmailView;
     private EditText mPasswordView, edtOtp;
     private View mProgressView;
     private View mLoginFormView;
@@ -117,7 +117,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                 .setPermissions(Manifest.permission.READ_PHONE_STATE, Manifest.permission.ACCESS_FINE_LOCATION)
                 .check();
         // Set up the login form.
-        mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
+        mEmailView = (EditText) findViewById(R.id.email);
         mEmailView.setNextFocusDownId(R.id.password);
         edtOtp = (EditText)findViewById(R.id.edt_otp);
         otpLayout = (LinearLayout)findViewById(R.id.linear_layout_otp);

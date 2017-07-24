@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.jkpaper.jksales.Activity.DetailActivity;
 import com.jkpaper.jksales.Activity.DetailsActivity;
+import com.jkpaper.jksales.Activity.WebViewActivityNav;
 import com.jkpaper.jksales.Models.Menu;
 import com.jkpaper.jksales.R;
 
@@ -79,10 +80,10 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
                 @Override
                 public void onClick(View v) {
                     String url = menus.get(position).getMenuApi();
-                    Intent intent = new Intent(context, DetailsActivity.class);
+                    Intent intent = new Intent(context, WebViewActivityNav.class);
                     intent.putExtra("url",url);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    intent.putExtra("title",menus.get(position).getMenuName());
+                    intent.putExtra("label",menus.get(position).getMenuName());
                     context.startActivity(intent);
                     //Toast.makeText(context,"Clicked  "+position,Toast.LENGTH_SHORT).show();
                 }
