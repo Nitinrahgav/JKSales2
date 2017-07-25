@@ -46,6 +46,7 @@
         <activity
             android:name="com.jkpaper.jksales.Activity.MenuActivtyNav"
             android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/apax_logo"
             android:label="@string/title_activity_menu_activty_nav"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

@@ -845,7 +845,7 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d006f
 int id action_mode_bar_stub 0x7f0d006e
 int id action_mode_close_button 0x7f0d0051
-int id action_settings 0x7f0d00df
+int id action_settings 0x7f0d00e0
 int id action_text 0x7f0d00b4
 int id actions 0x7f0d00c2
 int id activity_chooser_view_content 0x7f0d0052
@@ -928,6 +928,7 @@ int id list_item 0x7f0d0056
 int id login_failed_text 0x7f0d008a
 int id login_form 0x7f0d0085
 int id login_progress 0x7f0d0084
+int id logout 0x7f0d00df
 int id market_visit 0x7f0d00dd
 int id masked 0x7f0d00cc
 int id media_actions 0x7f0d00b8
@@ -1153,11 +1154,12 @@ int mipmap app_logo 0x7f030002
 int mipmap city_background 0x7f030003
 int mipmap ic_launcher 0x7f030004
 int mipmap ic_launcher_round 0x7f030005
-int mipmap nav_draw_background 0x7f030006
-int mipmap right_arrow 0x7f030007
-int mipmap splash 0x7f030008
-int mipmap splash_image 0x7f030009
-int mipmap white_logo 0x7f03000a
+int mipmap logout 0x7f030006
+int mipmap nav_draw_background 0x7f030007
+int mipmap right_arrow 0x7f030008
+int mipmap splash 0x7f030009
+int mipmap splash_image 0x7f03000a
+int mipmap white_logo 0x7f03000b
 int string Logo 0x7f070029
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f070001

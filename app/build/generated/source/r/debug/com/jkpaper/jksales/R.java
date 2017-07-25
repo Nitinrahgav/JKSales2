@@ -3381,7 +3381,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d006f;
         public static final int action_mode_bar_stub=0x7f0d006e;
         public static final int action_mode_close_button=0x7f0d0051;
-        public static final int action_settings=0x7f0d00df;
+        public static final int action_settings=0x7f0d00e0;
         public static final int action_text=0x7f0d00b4;
         public static final int actions=0x7f0d00c2;
         public static final int activity_chooser_view_content=0x7f0d0052;
@@ -3464,6 +3464,7 @@ containing a value of this type.
         public static final int login_failed_text=0x7f0d008a;
         public static final int login_form=0x7f0d0085;
         public static final int login_progress=0x7f0d0084;
+        public static final int logout=0x7f0d00df;
         public static final int market_visit=0x7f0d00dd;
         public static final int masked=0x7f0d00cc;
         public static final int media_actions=0x7f0d00b8;
@@ -3697,11 +3698,12 @@ containing a value of this type.
         public static final int city_background=0x7f030003;
         public static final int ic_launcher=0x7f030004;
         public static final int ic_launcher_round=0x7f030005;
-        public static final int nav_draw_background=0x7f030006;
-        public static final int right_arrow=0x7f030007;
-        public static final int splash=0x7f030008;
-        public static final int splash_image=0x7f030009;
-        public static final int white_logo=0x7f03000a;
+        public static final int logout=0x7f030006;
+        public static final int nav_draw_background=0x7f030007;
+        public static final int right_arrow=0x7f030008;
+        public static final int splash=0x7f030009;
+        public static final int splash_image=0x7f03000a;
+        public static final int white_logo=0x7f03000b;
     }
     public static final class string {
         public static final int Logo=0x7f070029;

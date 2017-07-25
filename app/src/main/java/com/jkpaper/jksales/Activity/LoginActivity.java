@@ -382,6 +382,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
 
                     @Override
                     public void onFailure(Call call, IOException e) {
+                        attemptLogin();
                         System.out.println("Registration Error" + e.getMessage());
                     }
 
@@ -419,6 +420,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                                         runOnUiThread(new Runnable() {
                                             @Override
                                             public void run() {
+                                                showProgress(false);
                                                 loginFaiedText.setText(msgFinal);
                                                 loginFaiedText.setVisibility(View.VISIBLE);
                                             }
@@ -432,6 +434,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                                     runOnUiThread(new Runnable() {
                                         @Override
                                         public void run() {
+                                            showProgress(false);
                                             loginFaiedText.setVisibility(View.VISIBLE);
                                         }
                                     });
@@ -442,6 +445,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                                 runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
+                                        showProgress(false);
                                         loginFaiedText.setVisibility(View.VISIBLE);
                                     }
                                 });
@@ -458,6 +462,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
+                                    showProgress(false);
                                     loginFaiedText.setVisibility(View.VISIBLE);
                                 }
                             });
@@ -493,6 +498,19 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
         protected void onCancelled() {
             mAuthTask = null;
             showProgress(false);
+        }
+    }
+    private Boolean exit = false;
+    @Override
+    public void onBackPressed() {
+        if (exit) {
+            finishAffinity();
+            // finish activity
+        } else {
+            Toast.makeText(this, "Press Back again to Exit.",
+                    Toast.LENGTH_SHORT).show();
+            exit = true;
+
         }
     }
 
