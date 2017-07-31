@@ -78,6 +78,9 @@
             android:id="@+id/mop"
             android:icon="@drawable/ic_payment_black_24dp"
             android:title="MOP" />
+        <item android:id="@+id/logout_nav"
+            android:icon="@mipmap/logout_black"
+            android:title="Logout"/>
     </group>
 
 

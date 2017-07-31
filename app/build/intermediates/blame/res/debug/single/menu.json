@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_menu_activty_nav_drawer.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\menu\\activity_menu_activty_nav_drawer.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_web_view_nav_drawer.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\menu\\activity_web_view_nav_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\details.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\menu\\details.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_menu_activty_nav_drawer.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\menu\\activity_menu_activty_nav_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_activty_nav.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\menu\\menu_activty_nav.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_activty_nav.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\menu\\menu_activty_nav.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_web_view_nav_drawer.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\menu\\activity_web_view_nav_drawer.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\web_view_activity_nav.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\menu\\web_view_activity_nav.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_details_drawer.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\menu\\activity_details_drawer.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_details_drawer.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\menu\\activity_details_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\web_view_activity_nav.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\menu\\web_view_activity_nav.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\details.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\menu\\details.xml"
     }
 ]

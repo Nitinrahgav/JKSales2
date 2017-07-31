@@ -1,58 +1,58 @@
 [
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_assessment_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_assessment_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_https_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_https_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_developer_board_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_developer_board_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_library_books_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_library_books_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_visibility_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_visibility_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
         "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_visibility_off_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_visibility_off_black_24dp.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_visibility_off_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_visibility_off_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_visibility_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_visibility_black_24dp.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_payment_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_payment_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\user.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\user.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_account_circle_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_circle_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_payment_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_payment_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_https_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_https_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_present_to_all_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_present_to_all_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_content_copy_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_content_copy_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_library_books_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_library_books_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
         "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_developer_board_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_developer_board_black_24dp.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_account_circle_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_circle_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_assessment_black_24dp.xml",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_assessment_black_24dp.xml"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_content_copy_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_content_copy_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_present_to_all_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_present_to_all_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\user.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\user.xml"
     }
 ]

@@ -1,18 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\app_logo.png",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\app_logo.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\app_logo.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\app_logo.png"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\apax_logo.png",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\apax_logo.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\logout_black.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\logout_black.png"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\app\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\apax_logo.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\apax_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     }
 ]

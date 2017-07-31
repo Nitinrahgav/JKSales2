@@ -196,6 +196,25 @@ public class MenuActivtyNav extends AppCompatActivity
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.mop) {
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+        }else if(id == R.id.logout_nav){
+            AlertDialog alertDialog = new AlertDialog.Builder(MenuActivtyNav.this).create();
+            alertDialog.setTitle("Logout");
+            alertDialog.setMessage("are you sure you want to logout??");
+            alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Cancel",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+            alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "LogOut",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                            Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+                            startActivity(intent);
+                        }
+                    });
+            alertDialog.show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
