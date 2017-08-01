@@ -63,6 +63,9 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_web_view_nav"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.jkpaper.jksales.Activity.ProfileActivity"
+            android:label="Profile" />
 
         <service
             android:name="com.akhgupta.easylocation.LocationBgService"

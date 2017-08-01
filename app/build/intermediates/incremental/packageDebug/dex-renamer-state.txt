@@ -1,7 +1,4 @@
-#Tue Aug 01 00:05:30 IST 2017
-base.0=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1d07c8ca9d2715006f867906d2903ff5c01bb464
-renamed.1=classes2.dex
+#Wed Aug 02 00:24:12 IST 2017
+base.0=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8defc65b443d9e4e47d5e919b4b05529b6ec0302\\classes.dex
-base.1=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8defc65b443d9e4e47d5e919b4b05529b6ec0302
-file.0=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1d07c8ca9d2715006f867906d2903ff5c01bb464\\classes.dex
+file.0=C\:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

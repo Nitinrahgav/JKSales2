@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_edit_black_24dp.xml",
+        "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_edit_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_assessment_black_24dp.xml",
         "source": "C:\\Users\\Ashish\\Desktop\\AndroidRTC-master\\pnwebrtc\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_assessment_black_24dp.xml"
     },

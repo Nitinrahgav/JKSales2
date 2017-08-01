@@ -360,6 +360,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
             });
             Random r = new Random();
             randomOTP = r.nextInt(9999 - 1000) + 1000;
+            Log.d("OTP", String.valueOf(randomOTP));
             //Log.d("Otp", String.valueOf(randomOTP));
 
             try {
@@ -391,6 +392,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                     public void onResponse(Call call, okhttp3.Response response) throws IOException {
                         try {
                             String resp = response.body().string();
+                            Log.d("Resp",resp);
                             try { JSONObject obj=new JSONObject(resp);
 
                                 JSONObject obj_response=obj.getJSONObject("Response");
@@ -408,14 +410,18 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                                                 showProgress(false);
                                                 loginFormLayout.setVisibility(View.GONE);
                                                 otpLayout.setVisibility(View.VISIBLE);
+                                                initOtpViews();
                                             }
                                         });
                                         JSONObject obj_user=obj_data.getJSONObject("user");
                                         user_id=obj_user.getString("user_id");
                                         sharedPreferences.edit().putString("user_id", user_id).apply();
-                                        sharedPreferences.edit().putString("user_name", obj_user.get("user_full_name").toString()).apply();
+                                        sharedPreferences.edit().putString("user_name", String.valueOf(obj_user.get("user_first") + " " +  obj_user.get("user_last"))).apply();
+                                        sharedPreferences.edit().putString("user_first", obj_user.get("user_first").toString()).apply();
+                                        sharedPreferences.edit().putString("user_last", obj_user.get("user_last").toString()).apply();
+                                        sharedPreferences.edit().putString("user_mobile", obj_user.get("user_mobile").toString()).apply();
                                         sharedPreferences.edit().putString("user_email", obj_user.get("user_email").toString()).apply();
-                                        initOtpViews();
+
                                     }else{
                                         runOnUiThread(new Runnable() {
                                             @Override
@@ -526,7 +532,9 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if(s.length() == 4){
+                    Log.d("O", String.valueOf(s));
                     if(Integer.parseInt(String.valueOf(s)) == randomOTP){
+
                         Toast.makeText(getApplicationContext(),"You have successfully logged in",Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
                         intent.putExtra("id",user_id);

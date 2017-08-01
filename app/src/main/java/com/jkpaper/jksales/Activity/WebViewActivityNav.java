@@ -198,7 +198,8 @@ public class WebViewActivityNav extends AppCompatActivity
             intent.putExtra("id",sharedPreferences.getString("id",""));
             startActivity(intent);
         } else if (id == R.id.profile) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+            startActivity(intent);
         } else if (id == R.id.off_take_zone) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/offtakezone.php");
