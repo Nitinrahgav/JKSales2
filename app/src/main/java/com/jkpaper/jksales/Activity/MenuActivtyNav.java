@@ -151,24 +151,24 @@ public class MenuActivtyNav extends AppCompatActivity
         } else if (id == R.id.profile) {
             Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
             startActivity(intent);
-        }
-
-    //Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
-         else if (id == R.id.off_take_zone) {
+        } else if (id == R.id.off_take_zone) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/offtakezone.php");
             intent.putExtra("label","Off Take Zone");
             startActivity(intent);
         } else if (id == R.id.sales) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/sales.php");
+            intent.putExtra("label","Sales ");
+            startActivity(intent);
         } else if (id == R.id.sales_asm_ws) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/salesbyasm.php");
-            intent.putExtra("label","sales ASM WS");
+            intent.putExtra("label","Sales ASM WS");
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock1.php");
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock.php");
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);
         } else if (id == R.id.outstanding_ageing) {
@@ -177,21 +177,40 @@ public class MenuActivtyNav extends AppCompatActivity
             intent.putExtra("label","Outstanding Ageing");
             startActivity(intent);
         } else if (id == R.id.production_plan) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/productionplan.php");
+            intent.putExtra("label","Production Plan");
+            startActivity(intent);
         } else if (id == R.id.qc_claim_status) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.cform_status) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/qc.php");
+            intent.putExtra("label","Quality Claim Status");
+            startActivity(intent);
         } else if (id == R.id.pending_order_zone) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/pendingorderzone.php");
+            intent.putExtra("label","Pending Order Zone");
+            startActivity(intent);
         } else if (id == R.id.pending_order_zone_asm) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/pendingorderasm.php");
+            intent.putExtra("label","Pending Order ASM");
+            startActivity(intent);
         } else if (id == R.id.product_mc_details) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/prodctmcdetails.php");
+            intent.putExtra("label","Product M/C Details");
+            startActivity(intent);
         } else if (id == R.id.mrp_of_products) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mrp.php");
+            intent.putExtra("label","MRP of Products");
+            startActivity(intent);
         } else if (id == R.id.landed_cost) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/landedcost.php");
+            intent.putExtra("label","Landed Cost");
+            startActivity(intent);
         } else if (id == R.id.consumer_details) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/customerdetails.php");
