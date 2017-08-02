@@ -39,10 +39,6 @@
             android:icon="@drawable/ic_library_books_black_24dp"
             android:title="QC Claim Status" />
         <item
-            android:id="@+id/cform_status"
-            android:icon="@drawable/ic_developer_board_black_24dp"
-            android:title="CForm Status" />
-        <item
             android:id="@+id/pending_order_zone"
             android:icon="@drawable/ic_assessment_black_24dp"
             android:title="Pending Order Zone" />
