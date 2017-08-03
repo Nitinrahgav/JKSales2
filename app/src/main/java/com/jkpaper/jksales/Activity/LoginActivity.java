@@ -6,9 +6,11 @@ import android.animation.AnimatorListenerAdapter;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -30,6 +32,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.telephony.SmsManager;
+import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -55,6 +59,7 @@ import com.akhgupta.easylocation.EasyLocationRequestBuilder;
 import com.google.android.gms.location.LocationRequest;
 import com.gun0912.tedpermission.PermissionListener;
 import com.gun0912.tedpermission.TedPermission;
+import com.jkpaper.jksales.Network.IncomingSms;
 import com.jkpaper.jksales.R;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -78,8 +83,15 @@ import static android.Manifest.permission.READ_PHONE_STATE;
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends EasyLocationAppCompatActivity {
+    private static String phoneNumber1;
+    private static String SMSBody1;
+    TextView SMSm;
 
     private static String LOGIN_URL = "http://www.nitinraghav.com/jkapi/login.php";
+    public static void getSmsDetails(String phoneNumber, String SMSBody) {
+        phoneNumber1 = phoneNumber;
+        SMSBody1 = SMSBody;
+    }
 
     /**
      * A dummy authentication store containing known user names and passwords.
@@ -94,6 +106,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
     private UserLoginTask mAuthTask = null;
 
     // UI references.
+    private IncomingSms mReceiver;
     private EditText mEmailView;
     private EditText mPasswordView, edtOtp;
     private View mProgressView;
@@ -332,6 +345,10 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
 
     }
 
+    public static void setResult(String message, String sender) {
+        SMSBody1 = message;
+        phoneNumber1 = sender;
+    }
 
 
     /**
@@ -519,9 +536,18 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
 
         }
     }
+    public void registerBroadcastReceiver(View view) {
+
+        this.registerReceiver(mReceiver, new IntentFilter(
+                "android.provider.Telephony.SMS_RECEIVED"));
+
+    }
+
+
 
     private void initOtpViews() {
-
+        registerBroadcastReceiver(edtOtp);
+        Log.d("SMS","Hello" + SMSBody1);
         edtOtp.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -561,5 +587,6 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         return netInfo != null && netInfo.isConnectedOrConnecting();
     }
+
 }
 

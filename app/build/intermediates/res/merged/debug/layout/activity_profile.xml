@@ -1,84 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_marginLeft="5dp"
-    android:layout_marginRight="5dp"
-    tools:context="com.jkpaper.jksales.Activity.ProfileActivity">
-    <LinearLayout
+<android.support.v4.widget.NestedScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="50dp"
-            android:layout_gravity="center"
-            android:src="@mipmap/user_image"/>
-        <TextView
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        tools:context="com.jkpaper.jksales.Activity.ProfileActivity">
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="PERSONAL INFORMATION"
-            android:textStyle="bold"
-            android:textColor="#000"
-            android:textSize="15sp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="15dp">
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="0dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/user_image"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="PERSONAL INFORMATION"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="FIRST NAME"
+                    android:id="@+id/edt_first_name"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="LAST NAME"
+                    android:id="@+id/edt_last_name"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="FIRST NAME"
-                android:id="@+id/edt_first_name"
+                android:hint="PHONE NUMBER"
+                android:id="@+id/edt_mobile"
                 android:textAllCaps="true"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_marginTop="20dp">
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="LAST NAME"
-                android:id="@+id/edt_last_name"
+                android:hint="EMAIL ADDRESS"
+                android:id="@+id/edt_email"
                 android:textAllCaps="true"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="PHONE NUMBER"
-            android:id="@+id/edt_mobile"
-            android:textAllCaps="true"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="EMAIL ADDRESS"
-            android:id="@+id/edt_email"
-            android:textAllCaps="true"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
-    </android.support.design.widget.TextInputLayout>
-</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

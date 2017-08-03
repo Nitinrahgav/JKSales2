@@ -12,6 +12,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -66,6 +68,12 @@
         <activity
             android:name="com.jkpaper.jksales.Activity.ProfileActivity"
             android:label="Profile" />
+
+        <receiver android:name="com.jkpaper.jksales.Network.IncomingSms" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
 
         <service
             android:name="com.akhgupta.easylocation.LocationBgService"
