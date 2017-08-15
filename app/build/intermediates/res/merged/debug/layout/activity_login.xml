@@ -178,7 +178,7 @@
                                     android:layout_gravity="center_horizontal"
                                     android:backgroundTint="@color/white"
                                     android:drawableRight="@drawable/ic_visibility_black_24dp"
-                                    android:hint="Passcode"
+                                    android:hint="Pin"
                                     android:imeActionId="@+id/email_sign_in_button"
                                     android:imeActionLabel="@string/action_sign_in_short"
                                     android:imeOptions="actionUnspecified"
@@ -200,7 +200,7 @@
                                     android:layout_gravity="center_horizontal"
                                     android:backgroundTint="@color/white"
                                     android:drawableRight="@drawable/ic_visibility_black_24dp"
-                                    android:hint="Confirm Passcode"
+                                    android:hint="Confirm Pin"
                                     android:imeActionId="@+id/email_sign_in_button"
                                     android:imeActionLabel="@string/action_sign_in_short"
                                     android:imeOptions="actionUnspecified"
@@ -208,37 +208,66 @@
                                     android:maxLines="1"
                                     android:textColorHint="@color/white" />
                             </android.support.design.widget.TextInputLayout>
+                            <Button
+                                android:id="@+id/btn_generate_pin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|center_horizontal"
+                                android:layout_marginTop="50dp"
+                                android:background="@drawable/shape_button"
+                                android:text="@string/action_sign_in"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                tools:ignore="ButtonStyle" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:id="@+id/layout_pin"
+                            android:orientation="vertical">
                             <EditText
                                 android:id="@+id/edt_otp"
-                                android:layout_width="120dp"
+                                android:layout_width="200dp"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:layout_marginTop="20dp"
-                                android:visibility="gone"
-                                android:inputType="numberPassword"
-                                android:maxLength="4"
+                                android:visibility="visible"
+                                android:inputType="textPassword"
                                 android:maxLines="1"
                                 android:textAlignment="center" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:visibility="gone"
+                                android:visibility="visible"
                                 android:layout_marginTop="10dp"
-                                android:text="OTP has been sent to you on your mobile number.\nPlease enter it to verfy."
+                                android:text="Enter your pin to login"
                                 android:textColor="@color/white"/>
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/colorAccent"
                                 android:textStyle="bold"
-                                android:visibility="gone"
+                                android:visibility="visible"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:id="@+id/tv_resend_otp"
-                                android:text="@string/resend_otp"/>
+                                android:text="Forgot Pin"/>
+                            <Button
+                                android:id="@+id/btn_submit_pin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|center_horizontal"
+                                android:layout_marginTop="50dp"
+                                android:background="@drawable/shape_button"
+                                android:text="@string/action_sign_in"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                tools:ignore="ButtonStyle" />
                         </LinearLayout>
-
                     </LinearLayout>
                 </android.support.v4.widget.NestedScrollView>
             </LinearLayout>

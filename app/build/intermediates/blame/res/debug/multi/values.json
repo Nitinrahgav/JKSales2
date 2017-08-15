@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -1244,7 +1244,7 @@
                     "endOffset": 5688
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1491,7 +1491,7 @@
                     "endOffset": 6624
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1510,7 +1510,7 @@
                     "endOffset": 6671
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1529,7 +1529,7 @@
                     "endOffset": 6722
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1548,7 +1548,7 @@
                     "endOffset": 6764
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1567,7 +1567,7 @@
                     "endOffset": 6806
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1586,7 +1586,7 @@
                     "endOffset": 6848
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1605,7 +1605,7 @@
                     "endOffset": 6890
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1624,7 +1624,7 @@
                     "endOffset": 6932
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1643,7 +1643,7 @@
                     "endOffset": 6974
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2175,7 +2175,7 @@
                     "endOffset": 9017
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2194,7 +2194,7 @@
                     "endOffset": 9062
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2840,7 +2840,7 @@
                     "endOffset": 11284
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2859,7 +2859,7 @@
                     "endOffset": 11322
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -4284,7 +4284,7 @@
                     "endOffset": 53624
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -4303,7 +4303,7 @@
                     "endOffset": 53680
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -5139,7 +5139,7 @@
                     "endOffset": 56447
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -5348,7 +5348,7 @@
                     "endOffset": 57331
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -5367,7 +5367,7 @@
                     "endOffset": 57390
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -5671,7 +5671,7 @@
                     "endOffset": 58456
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -5690,7 +5690,7 @@
                     "endOffset": 58546
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -5709,7 +5709,7 @@
                     "endOffset": 58634
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -5728,7 +5728,7 @@
                     "endOffset": 58718
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -5747,7 +5747,7 @@
                     "endOffset": 58804
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -5766,7 +5766,7 @@
                     "endOffset": 58898
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -6298,7 +6298,7 @@
                     "endOffset": 60448
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -6906,7 +6906,7 @@
                     "endOffset": 62739
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -6925,7 +6925,7 @@
                     "endOffset": 62791
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -6944,7 +6944,7 @@
                     "endOffset": 62848
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -6963,7 +6963,7 @@
                     "endOffset": 62895
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -7001,7 +7001,7 @@
                     "endOffset": 63104
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -7381,7 +7381,7 @@
                     "endOffset": 65583
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -7400,7 +7400,7 @@
                     "endOffset": 65640
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -7419,7 +7419,7 @@
                     "endOffset": 65712
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -7438,7 +7438,7 @@
                     "endOffset": 65792
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -7457,7 +7457,7 @@
                     "endOffset": 65870
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -7476,7 +7476,7 @@
                     "endOffset": 65948
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -7552,7 +7552,7 @@
                     "endOffset": 66279
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -7571,7 +7571,7 @@
                     "endOffset": 66353
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -7705,7 +7705,7 @@
                     "endOffset": 67378
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -7725,7 +7725,7 @@
                     "endOffset": 67428
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -7744,7 +7744,7 @@
                     "endOffset": 67481
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -7763,7 +7763,7 @@
                     "endOffset": 67538
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -7877,7 +7877,7 @@
                     "endOffset": 67899
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -7896,7 +7896,7 @@
                     "endOffset": 67963
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -7915,7 +7915,7 @@
                     "endOffset": 68022
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -7934,7 +7934,7 @@
                     "endOffset": 68087
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -7953,7 +7953,7 @@
                     "endOffset": 68152
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -7972,7 +7972,7 @@
                     "endOffset": 68227
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -8089,7 +8089,7 @@
                     "endOffset": 69185
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -8109,7 +8109,7 @@
                     "endOffset": 69275
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -8129,7 +8129,7 @@
                     "endOffset": 69425
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -8149,7 +8149,7 @@
                     "endOffset": 69505
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -11117,7 +11117,7 @@
                     "endOffset": 135607
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -11138,7 +11138,7 @@
                     "endOffset": 136063
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -12985,7 +12985,7 @@
                     "endOffset": 156024
                 },
                 "from": {
-                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,

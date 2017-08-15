@@ -108,15 +108,16 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
     // UI references.
     private IncomingSms mReceiver;
     private EditText mEmailView;
-    private EditText mPasswordView, edtOtp;
+    private EditText mPasswordView, edtOtp ,edtPasscode1, edtPasscode2;
     private View mProgressView;
     private View mLoginFormView;
     String user_id, imeiNumber = "null", latitude = "null", longitude = "null";
     int randomOTP;
-    private LinearLayout otpLayout, loginFormLayout;
+    private LinearLayout otpLayout, loginFormLayout, layoutPin;
     TextView loginFaiedText, tvResendOTP;
     EasyLocationRequest easyLocationRequest;
     SharedPreferences sharedPreferences;
+    Button buttonGenerate, btnSubmitPin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -140,11 +141,44 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
         mPasswordView.setNextFocusDownId(R.id.email_sign_in_button);
         loginFaiedText = (TextView)findViewById(R.id.login_failed_text);
         tvResendOTP = (TextView)findViewById(R.id.tv_resend_otp);
+        edtPasscode1 = (EditText)findViewById(R.id.passcode1);
+        edtPasscode2 = (EditText)findViewById(R.id.passcode2);
+        buttonGenerate = (Button)findViewById(R.id.btn_generate_pin);
+        buttonGenerate.setText("Submit");
+        btnSubmitPin = (Button)findViewById(R.id.btn_submit_pin);
+        btnSubmitPin.setText("Submit");
+        btnSubmitPin.setOnClickListener(new OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+            @Override
+            public void onClick(View view) {
+                Log.d("otp", edtOtp.getText().toString() + "/" + sharedPreferences.getString("passcode",""));
+                if(Objects.equals(edtOtp.getText().toString(), sharedPreferences.getString("passcode",""))){
+                    Toast.makeText(getApplicationContext(),"You have successfully logged in",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
+                    intent.putExtra("id",user_id);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(getApplicationContext(),"Enter the correct pin",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+        layoutPin = (LinearLayout)findViewById(R.id.layout_pin);
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        if(sharedPreferences != null){
+            if(sharedPreferences.getInt("pin",0) == 1){
+                loginFormLayout.setVisibility(View.GONE);
+                layoutPin.setVisibility(View.VISIBLE);
+                otpLayout.setVisibility(View.GONE);
+            }else{
+                layoutPin.setVisibility(View.GONE);
+            }
+        }
         tvResendOTP.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                attemptLogin();
+                sharedPreferences.edit().clear().apply();
+                Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(intent);
             }
         });
         /*mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -546,7 +580,32 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
 
 
     private void initOtpViews() {
-        registerBroadcastReceiver(edtOtp);
+        buttonGenerate.setOnClickListener(new OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+            @Override
+            public void onClick(View view) {
+                if(!TextUtils.isEmpty(edtPasscode1.getText().toString()) && !TextUtils.isEmpty(edtPasscode2.getText().toString())){
+                    if(Objects.equals(edtPasscode1.getText().toString(), edtPasscode2.getText().toString())){
+                        Toast.makeText(getApplicationContext(),"You have successfully logged in",Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
+                        intent.putExtra("id",user_id);
+                        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                        sharedPreferences.edit().putString("id",user_id).apply();
+                        sharedPreferences.edit().putInt("pin",1).apply();
+                        sharedPreferences.edit().putString("passcode",edtPasscode1.getText().toString()).apply();
+                        Log.d("user_id",user_id);
+                        startActivity(intent);
+                    }else{
+                        Toast.makeText(getApplicationContext(),"Password doesn't match",Toast.LENGTH_SHORT).show();
+                        sharedPreferences.edit().putInt("pin",0).apply();
+                    }
+                }else{
+                    Toast.makeText(getApplicationContext(),"Enter all Field",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        /*registerBroadcastReceiver(edtOtp);
         Log.d("SMS","Hello" + SMSBody1);
         edtOtp.addTextChangedListener(new TextWatcher() {
             @Override
@@ -579,7 +638,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
             public void afterTextChanged(Editable s) {
 
             }
-        });
+        });*/
     }
     private boolean checkInternetConnection(){
         ConnectivityManager cm =
