@@ -38,5 +38,14 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:11.0.2'
     compile 'gun0912.ted:tedpermission:1.0.3'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.firebase:firebase-storage:9.0.0'
+    compile 'gun0912.ted:tedbottompicker:1.0.12'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.google.firebase:firebase-auth:9.0.0'
     testCompile 'junit:junit:4.12'
 }
+
+
+
+
+apply plugin: 'com.google.gms.google-services'

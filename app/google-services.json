@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "627744904300",
+    "firebase_url": "https://apex-sales.firebaseio.com",
+    "project_id": "apex-sales",
+    "storage_bucket": "apex-sales.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627744904300:android:bc062a91c3dcc23a",
+        "android_client_info": {
+          "package_name": "com.jkpaper.jksales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627744904300-kmdh8j1jplprbhupk1nor2ovgggcgfgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jkpaper.jksales",
+            "certificate_hash": "f40cd3e55ab5db9b030db6d4fa1fddc4aae36be1"
+          }
+        },
+        {
+          "client_id": "627744904300-7bdjk318i9vpgldbrlmhhb52va6r74h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjuhrjXloy57GDKp6LFfYVbqv-bgne_OM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627744904300-7bdjk318i9vpgldbrlmhhb52va6r74h0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

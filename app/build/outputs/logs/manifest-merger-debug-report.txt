@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:2:1-74:12
 	package
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml
@@ -18,6 +18,9 @@ ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSale
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\Ashish\.android\build-cache\8328f0d8d2165408c7649b957844fcbda1720747\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_PHONE_STATE
@@ -26,6 +29,9 @@ ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSale
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:7:22-72
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\Ashish\.android\build-cache\8328f0d8d2165408c7649b957844fcbda1720747\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -41,161 +47,187 @@ uses-permission#android.permission.READ_SMS
 ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:12:5-80
+MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:13:5-71:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:26:5-20
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:14:5-72:19
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:26:5-20
 MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:14:5-21:19
 MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\Ashish\.android\build-cache\a03acbc67d1b4fc9df1f751ee52c10da194fbcfc\output\AndroidManifest.xml:4:5-19
+MERGED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:9:5-13:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ashish\.android\build-cache\35fe441dc78156187fbff35121fb508238f73972\output\AndroidManifest.xml:9:5-20
+MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:13:5-23:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ashish\.android\build-cache\774db2964c69f195b208518860f705a970f2f0c4\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:9.0.0] C:\Users\Ashish\.android\build-cache\6c8db45980d6a39cce88dbafedf9e003775afd21\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.0.0] C:\Users\Ashish\.android\build-cache\742fc89c1dab9bc42e4e4ecba2f170382bc7906b\output\AndroidManifest.xml:20:5-21:19
 MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\Ashish\.android\build-cache\074e43c9718fe80b28eac7c5709026524b0be3cc\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\Ashish\.android\build-cache\8328f0d8d2165408c7649b957844fcbda1720747\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\Ashish\.android\build-cache\61f7e078dc85084916f718a7e4b221f3d680369b\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Ashish\.android\build-cache\856955cf982db8d219013ba222259d52bda4b941\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:19:5-21:19
-MERGED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:9:5-13:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ashish\.android\build-cache\aa6ac29807a16a16479391aeca505dd32c83e1cb\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ashish\.android\build-cache\23f1996b8e14b5bde1356871e1eb6b16d3431bab\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ashish\.android\build-cache\c8b2f8cce5f2d52dd4b85fcf6b7a08ea8094d324\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Ashish\.android\build-cache\0edc8c542b13969350118cada54a61a28dfb56b0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Ashish\.android\build-cache\c633576f6440e017fd5e97ecb187501f9b601262\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ashish\.android\build-cache\23a816c38bbd977f4f6e13c6250725a40195e1f6\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ashish\.android\build-cache\35fe441dc78156187fbff35121fb508238f73972\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:16:9-41
-	android:supportsRtl
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:18:9-35
-	android:allowBackup
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:14:9-35
-	android:icon
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:15:9-41
-	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:19:9-40
-	android:logo
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:17:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:19:9-35
+	android:allowBackup
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:16:9-41
+	android:theme
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:20:9-40
+	android:logo
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:18:9-41
 activity#com.jkpaper.jksales.Activity.MainActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:20:9-22:50
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:21:9-23:50
 	tools:ignore
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:22:13-47
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:23:13-47
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:21:13-50
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:22:13-50
 activity#com.jkpaper.jksales.Activity.LoginActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:23:9-27:50
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:24:9-28:50
 	android:label
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:25:13-57
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:26:13-57
 	tools:ignore
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:27:13-47
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:28:13-47
 	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:26:13-51
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:27:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:24:13-51
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:25:13-51
 activity#com.jkpaper.jksales.Activity.DetailActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:28:9-31:50
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:29:9-32:50
 	tools:ignore
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:31:13-47
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:32:13-47
 	android:configChanges
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:30:13-59
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:31:13-59
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:29:13-52
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:30:13-52
 activity#com.jkpaper.jksales.Activity.FullscreenActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:32:9-42:20
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:33:9-43:20
 	android:label
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:35:13-62
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:36:13-62
 	android:configChanges
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:34:13-74
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:35:13-74
 	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:36:13-51
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:37:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:34:13-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:40:17-77
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.jkpaper.jksales.Activity.MenuActivtyNav
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:43:9-47:59
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:44:9-48:59
 	android:label
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:46:13-68
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:47:13-68
 	android:configChanges
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:45:13-59
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:46:13-59
 	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:47:13-56
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:44:13-52
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:45:13-52
 activity#com.jkpaper.jksales.Activity.DetailsActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:48:9-52:59
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:49:9-53:59
 	android:label
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:52:13-59
+	android:configChanges
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:51:13-59
-	android:configChanges
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:50:13-59
 	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:49:13-53
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:50:13-53
 activity#com.jkpaper.jksales.Activity.SigninActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:53:9-57:54
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:54:9-58:54
 	android:label
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:56:13-58
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:57:13-58
 	android:configChanges
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:55:13-74
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:56:13-74
 	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:57:13-51
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:58:13-51
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:54:13-52
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:55:13-52
 activity#com.jkpaper.jksales.Activity.WebViewActivityNav
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:58:9-62:59
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:59:9-63:59
 	android:label
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:61:13-64
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:62:13-64
 	android:configChanges
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:60:13-59
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:61:13-59
 	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:62:13-56
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:63:13-56
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:59:13-56
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:60:13-56
 activity#com.jkpaper.jksales.Activity.ProfileActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:63:9-65:39
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:64:9-66:39
 	android:label
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:65:13-36
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:64:13-53
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:65:13-53
 receiver#com.jkpaper.jksales.Network.IncomingSms
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:66:9-70:20
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:67:9-71:20
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:66:19-54
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:67:19-54
 intent-filter#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:67:13-69:29
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:68:13-70:29
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:68:17-82
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:69:17-82
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:68:25-79
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:69:25-79
 uses-sdk
 INJECTED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\428b95e6d32e3a00b77c126b4c69afcb2255514a\output\AndroidManifest.xml:20:5-43
 MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\Ashish\.android\build-cache\a03acbc67d1b4fc9df1f751ee52c10da194fbcfc\output\AndroidManifest.xml:3:5-43
+MERGED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ashish\.android\build-cache\35fe441dc78156187fbff35121fb508238f73972\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage:9.0.0] C:\Users\Ashish\.android\build-cache\6730e1ce6c4f186dc565d3e8023a574175370d80\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.0.0] C:\Users\Ashish\.android\build-cache\7b33a50b8a39c8c7b47d41d38d5fdf547eb86181\output\AndroidManifest.xml:5:5-43
+MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\428b95e6d32e3a00b77c126b4c69afcb2255514a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ashish\.android\build-cache\774db2964c69f195b208518860f705a970f2f0c4\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:9.0.0] C:\Users\Ashish\.android\build-cache\6c8db45980d6a39cce88dbafedf9e003775afd21\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.0.0] C:\Users\Ashish\.android\build-cache\742fc89c1dab9bc42e4e4ecba2f170382bc7906b\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.0.0] C:\Users\Ashish\.android\build-cache\a7febf85ff248f647d6e4ffafcf9ef1248045698\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\Ashish\.android\build-cache\074e43c9718fe80b28eac7c5709026524b0be3cc\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\Ashish\.android\build-cache\8328f0d8d2165408c7649b957844fcbda1720747\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\Ashish\.android\build-cache\61f7e078dc85084916f718a7e4b221f3d680369b\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Ashish\.android\build-cache\856955cf982db8d219013ba222259d52bda4b941\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:17:5-43
-MERGED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ashish\.android\build-cache\aa6ac29807a16a16479391aeca505dd32c83e1cb\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ashish\.android\build-cache\23f1996b8e14b5bde1356871e1eb6b16d3431bab\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ashish\.android\build-cache\c8b2f8cce5f2d52dd4b85fcf6b7a08ea8094d324\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Ashish\.android\build-cache\0edc8c542b13969350118cada54a61a28dfb56b0\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Ashish\.android\build-cache\c633576f6440e017fd5e97ecb187501f9b601262\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ashish\.android\build-cache\23a816c38bbd977f4f6e13c6250725a40195e1f6\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ashish\.android\build-cache\35fe441dc78156187fbff35121fb508238f73972\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -205,29 +237,53 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\As
 		INJECTED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\428b95e6d32e3a00b77c126b4c69afcb2255514a\output\AndroidManifest.xml:22:5-24:34
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Ashish\.android\build-cache\65b4e3d2292f1650a230c43d8dae4997bfad7045\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\428b95e6d32e3a00b77c126b4c69afcb2255514a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Ashish\.android\build-cache\b59fdda23afdb61d7b1ba040259ee67a77138940\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Ashish\.android\build-cache\aa6ac29807a16a16479391aeca505dd32c83e1cb\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Ashish\.android\build-cache\23f1996b8e14b5bde1356871e1eb6b16d3431bab\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Ashish\.android\build-cache\c8b2f8cce5f2d52dd4b85fcf6b7a08ea8094d324\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Ashish\.android\build-cache\0edc8c542b13969350118cada54a61a28dfb56b0\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Ashish\.android\build-cache\c633576f6440e017fd5e97ecb187501f9b601262\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\e75ef2d0fbe189c30e52473a7709ce663baa99fd\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Ashish\.android\build-cache\64997320c80d71af9faaefd1186a38fe87ed46d5\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Ashish\.android\build-cache\23a816c38bbd977f4f6e13c6250725a40195e1f6\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:24:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Ashish\.android\build-cache\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:23:9-47
 service#com.akhgupta.easylocation.LocationBgService
 ADDED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:20:13-37
 	android:name
 		ADDED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:19:13-71
+activity#com.gun0912.tedpermission.TedPermissionActivity
+ADDED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:10:9-12:56
+	android:theme
+		ADDED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:12:13-53
+	android:name
+		ADDED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:11:13-75
+provider#android.support.v4.content.FileProvider
+ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:14:9-22:20
+	android:authorities
+		ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:16:13-60
+	android:grantUriPermissions
+		ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:18:13-47
+	android:exported
+		ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:15:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:19:13-21:58
+	android:resource
+		ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:21:17-55
+	android:name
+		ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:20:17-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\src\main\AndroidManifest.xml:2:1-74:12 reason: gun0912.tedbottompicker requested WRITE_EXTERNAL_STORAGE
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:9-172
 	android:exported
@@ -236,15 +292,121 @@ ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.a
 		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\Ashish\.android\build-cache\8328f0d8d2165408c7649b957844fcbda1720747\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\Ashish\.android\build-cache\8328f0d8d2165408c7649b957844fcbda1720747\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\Ashish\.android\build-cache\8328f0d8d2165408c7649b957844fcbda1720747\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\Ashish\.android\build-cache\26a661b7f22dbef858956c3e5e48622acdf2a333\output\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\Ashish\.android\build-cache\49e3250333219dc80dc7fa3e42c6f8d1c46fd091\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\Ashish\.android\build-cache\61f7e078dc85084916f718a7e4b221f3d680369b\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\Ashish\.android\build-cache\61f7e078dc85084916f718a7e4b221f3d680369b\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\Ashish\.android\build-cache\61f7e078dc85084916f718a7e4b221f3d680369b\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\Ashish\.android\build-cache\61f7e078dc85084916f718a7e4b221f3d680369b\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\Ashish\.android\build-cache\61f7e078dc85084916f718a7e4b221f3d680369b\output\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Ashish\.android\build-cache\f3c67b8e52dd87ca0538a46e9845980815bdc510\output\AndroidManifest.xml:20:20-65
-activity#com.gun0912.tedpermission.TedPermissionActivity
-ADDED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:10:9-12:56
-	android:theme
-		ADDED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:12:13-53
-	android:name
-		ADDED from [gun0912.ted:tedpermission:1.0.3] C:\Users\Ashish\.android\build-cache\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\output\AndroidManifest.xml:11:13-75

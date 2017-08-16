@@ -159,7 +159,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:paddingTop="50dp"
-                                android:text="Enter Passcode"
+                                android:text="Enter Pin"
                                 android:textAlignment="center"
                                 android:textColor="#1B72D6"
                                 android:textColorHint="#D6D7D7"

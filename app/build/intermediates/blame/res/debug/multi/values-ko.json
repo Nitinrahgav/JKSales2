@@ -691,8 +691,46 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 4239,
+                    "endColumn": 35,
+                    "endOffset": 4270
+                },
+                "from": {
+                    "file": "C:\\Users\\Ashish\\.android\\build-cache\\ed02a257f9cdd5e28948c3d2031129281e97ef9d\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 35,
+                        "endOffset": 86
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4275,
+                    "endColumn": 52,
+                    "endOffset": 4323
+                },
+                "from": {
+                    "file": "C:\\Users\\Ashish\\.android\\build-cache\\ed02a257f9cdd5e28948c3d2031129281e97ef9d\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 91,
+                        "endColumn": 52,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4328,
                     "endColumn": 77,
-                    "endOffset": 4312
+                    "endOffset": 4401
                 },
                 "from": {
                     "file": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\values-ko\\values-ko.xml",
@@ -707,11 +745,49 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4317,
+                    "startOffset": 4406,
+                    "endColumn": 61,
+                    "endOffset": 4463
+                },
+                "from": {
+                    "file": "C:\\Users\\Ashish\\.android\\build-cache\\ed02a257f9cdd5e28948c3d2031129281e97ef9d\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 144,
+                        "endColumn": 61,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4468,
+                    "endColumn": 62,
+                    "endOffset": 4526
+                },
+                "from": {
+                    "file": "C:\\Users\\Ashish\\.android\\build-cache\\ed02a257f9cdd5e28948c3d2031129281e97ef9d\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 62,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4531,
                     "endColumn": 100,
-                    "endOffset": 4413
+                    "endOffset": 4627
                 },
                 "from": {
                     "file": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\values-ko\\values-ko.xml",
@@ -726,11 +802,30 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 4418,
+                    "startOffset": 4632,
+                    "endColumn": 55,
+                    "endOffset": 4683
+                },
+                "from": {
+                    "file": "C:\\Users\\Ashish\\.android\\build-cache\\ed02a257f9cdd5e28948c3d2031129281e97ef9d\\output\\res\\values-ko\\values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 55,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4688,
                     "endColumn": 50,
-                    "endOffset": 4464
+                    "endOffset": 4734
                 },
                 "from": {
                     "file": "C:\\Users\\Ashish\\.android\\build-cache\\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\\output\\res\\values-ko\\values-ko.xml",
@@ -745,11 +840,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 4469,
+                    "startOffset": 4739,
                     "endColumn": 52,
-                    "endOffset": 4517
+                    "endOffset": 4787
                 },
                 "from": {
                     "file": "C:\\Users\\Ashish\\.android\\build-cache\\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\\output\\res\\values-ko\\values-ko.xml",
@@ -764,11 +859,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 4522,
+                    "startOffset": 4792,
                     "endColumn": 52,
-                    "endOffset": 4570
+                    "endOffset": 4840
                 },
                 "from": {
                     "file": "C:\\Users\\Ashish\\.android\\build-cache\\2c3f35389d6f041bfb1b8acac8b855d5b5617e60\\output\\res\\values-ko\\values-ko.xml",
