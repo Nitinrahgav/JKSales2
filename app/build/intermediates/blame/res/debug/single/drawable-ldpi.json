@@ -28,6 +28,14 @@
         "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_present_to_all_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\back.png",
+        "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\refresh.png",
+        "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\refresh.png"
+    },
+    {
         "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_visibility_off_black_24dp.png",
         "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_visibility_off_black_24dp.png"
     },

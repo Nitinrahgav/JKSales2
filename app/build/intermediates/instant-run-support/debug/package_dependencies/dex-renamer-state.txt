@@ -1,4 +1,4 @@
-#Thu Aug 17 01:49:34 IST 2017
+#Thu Aug 17 22:07:52 IST 2017
 file.9=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_94b27bf2a096723126cfc8f6de5a78b1ec4d743f\\classes.dex
 base.10=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_59b8e6e21429e6dee3c9576ddce4b707875c786e
 file.8=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a846b3465528ff8ab775a04587be1e7370c916f7\\classes.dex

@@ -75,6 +75,7 @@
             android:name="com.jkpaper.jksales.Activity.WebViewActivityNav"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_web_view_nav"
+            android:parentActivityName="com.jkpaper.jksales.Activity.MenuActivtyNav"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.jkpaper.jksales.Activity.ProfileActivity"

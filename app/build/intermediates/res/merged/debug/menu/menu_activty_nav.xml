@@ -3,6 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"
+        android:title="Refresh"
+        tools:ignore="AppCompatResource" />
+    <item
         android:id="@+id/logout"
         android:orderInCategory="100"
         app:showAsAction="always"

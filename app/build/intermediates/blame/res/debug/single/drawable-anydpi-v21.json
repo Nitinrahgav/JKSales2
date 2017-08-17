@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\back.xml",
+        "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\back.xml"
+    },
+    {
         "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml",
         "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_visibility_black_24dp.xml",
         "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_visibility_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\refresh.xml",
+        "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\refresh.xml"
     },
     {
         "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\user.xml",

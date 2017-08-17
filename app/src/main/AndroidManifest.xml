@@ -60,7 +60,8 @@
             android:name=".Activity.WebViewActivityNav"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_web_view_nav"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Activity.MenuActivtyNav"/>
         <activity
             android:name=".Activity.ProfileActivity"
             android:label="Profile" />

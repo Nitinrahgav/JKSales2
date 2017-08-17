@@ -133,6 +133,10 @@ public class MenuActivtyNav extends AppCompatActivity
                     });
             alertDialog.show();
             return true;
+        }else if(id == R.id.refresh){
+            Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
+            intent.putExtra("id",sharedPreferences.getString("user_id",""));
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
@@ -277,6 +281,7 @@ public class MenuActivtyNav extends AppCompatActivity
                     ResponseMenu jsonResponse = response.body();
                     menus = jsonResponse.getResponse().getData().getMenus();
                     MenuAdapter adapter = new MenuAdapter(getApplicationContext(),menus);
+                    adapter.notifyDataSetChanged();
                     recyclerView.setAdapter(adapter);
                     Log.d("ResponseMenu", String.valueOf(jsonResponse.getResponse().getData().getMenus().get(0).getMenuName()));
                 }

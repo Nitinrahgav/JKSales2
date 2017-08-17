@@ -182,6 +182,8 @@ public class WebViewActivityNav extends AppCompatActivity
                     });
             alertDialog.show();
             return true;
+        }else if(id == R.id.back){
+            super.onBackPressed();
         }
 
         return super.onOptionsItemSelected(item);
