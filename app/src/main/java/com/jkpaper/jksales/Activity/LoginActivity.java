@@ -155,7 +155,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                 if(Objects.equals(edtOtp.getText().toString(), sharedPreferences.getString("passcode",""))){
                     Toast.makeText(getApplicationContext(),"You have successfully logged in",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), MenuActivtyNav.class);
-                    intent.putExtra("id",user_id);
+                    intent.putExtra("id",sharedPreferences.getString("user_id",""));
                     startActivity(intent);
                 }else{
                     Toast.makeText(getApplicationContext(),"Enter the correct pin",Toast.LENGTH_SHORT).show();

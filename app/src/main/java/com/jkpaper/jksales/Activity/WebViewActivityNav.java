@@ -33,7 +33,7 @@ import com.jkpaper.jksales.R;
 public class WebViewActivityNav extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     WebView wv1;
-    String url;
+    String url, finalUrl;
     ProgressBar mProgress;
     ProgressBar crpv;
     TextView tvProgress, tvLoading, tvUserName, tvUserEmail;
@@ -46,7 +46,8 @@ public class WebViewActivityNav extends AppCompatActivity
         setSupportActionBar(toolbar);
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         url = getIntent().getStringExtra("url_web_view");
-        Log.d("url",url);
+        finalUrl = url + "&Token=d75542712c868c1690110db641ba01a";
+        Log.d("url",finalUrl);
         if(getIntent().getStringExtra("label") != null){
             ActionBar actionBar = getSupportActionBar();
             actionBar.setTitle(getIntent().getStringExtra("label"));
@@ -184,6 +185,7 @@ public class WebViewActivityNav extends AppCompatActivity
             return true;
         }else if(id == R.id.back){
             super.onBackPressed();
+        }else if(id == R.id.refresh){
         }
 
         return super.onOptionsItemSelected(item);

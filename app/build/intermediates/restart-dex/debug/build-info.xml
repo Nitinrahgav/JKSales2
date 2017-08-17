@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1502991450739"
+    timestamp="1502995203810"
     token="3470888878169903990"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="960" />
+        duration="792" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="64" />
+        duration="73" />
     <task
         name="verifier"
-        duration="15" />
+        duration="13" />
 
     <artifact
         location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1502991450739"
+        timestamp="1502995203810"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
