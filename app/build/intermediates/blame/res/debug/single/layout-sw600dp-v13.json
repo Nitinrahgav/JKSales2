@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\activity_login.xml",
+        "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\src\\main\\res\\layout-sw600dp\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\activity_login.xml",
-        "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\src\\main\\res\\layout-sw600dp\\activity_login.xml"
+        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

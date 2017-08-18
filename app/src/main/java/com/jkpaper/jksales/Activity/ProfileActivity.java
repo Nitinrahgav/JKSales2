@@ -1,14 +1,18 @@
 package com.jkpaper.jksales.Activity;
 
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.Build;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -25,19 +29,32 @@ import com.gun0912.tedpermission.PermissionListener;
 import com.gun0912.tedpermission.TedPermission;
 import com.jkpaper.jksales.R;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Objects;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import gun0912.tedbottompicker.TedBottomPicker;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.MultipartBody;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity implements View.OnClickListener{
     EditText firstName, lastName, mobile, email;
     SharedPreferences sharedPreferences;
     CircleImageView userImage;
     Uri uri;
     String filePath;
+    ProgressDialog mProgress;
     private StorageReference mStorageRef;
+    Button btnUpdateProfile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +65,8 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     private void initViews() {
+        btnUpdateProfile = (Button)findViewById(R.id.btn_edit_profile);
+        btnUpdateProfile.setOnClickListener(this);
         userImage = (CircleImageView) findViewById(R.id.user_image);
         userImage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -121,6 +140,118 @@ public class ProfileActivity extends AppCompatActivity {
 
     };
     private void disableInput(EditText edtText) {
-        edtText.setFocusable(false);
+        edtText.setEnabled(false);
+    }
+    int btnStatus = 0;
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.btn_edit_profile:
+                if(btnStatus == 0){
+                    firstName.setEnabled(true);
+                    lastName.setEnabled(true);
+                    mobile.setEnabled(true);
+                    email.setEnabled(true);
+                    firstName.setFocusable(true);
+                    lastName.setFocusable(true);
+                    mobile.setFocusable(true);
+                    email.setFocusable(true);
+                    btnUpdateProfile.setText("Save");
+                    btnStatus = 1;
+                }else{
+                    mProgress = new ProgressDialog(ProfileActivity.this);
+                    mProgress.setTitle("Updating Profile");
+                    mProgress.setMessage("Please wait, while we update your personal information..");
+                    mProgress.show();
+                    updateProfileInfo();
+                }
+
+
+
+        }
+    }
+    private void updateProfileInfo() {
+        OkHttpClient client = new OkHttpClient();
+        RequestBody requestBody = new MultipartBody.Builder()
+                .setType(MultipartBody.FORM)
+                .addFormDataPart("user", sharedPreferences.getString("user",""))
+                .addFormDataPart("id", sharedPreferences.getString("user_id",""))
+                .addFormDataPart("first",firstName.getText().toString())
+                .addFormDataPart("last",lastName.getText().toString())
+                .addFormDataPart("email",email.getText().toString())
+                .addFormDataPart("mobile", String.valueOf(mobile.getText().toString()))
+                .build();
+        Request request = new Request.Builder().url("http://nitinraghav.com/jkapi/update_profile.php").addHeader("Token","d75542712c868c1690110db641ba01a").addHeader("Data-For","1").post(requestBody).build();
+        okhttp3.Call call = client.newCall(request);
+        call.enqueue(new Callback() {
+
+
+            public static final String MODE_PRIVATE = "";
+
+            @Override
+            public void onFailure(Call call, IOException e) {
+                System.out.println("Registration Error" + e.getMessage());
+            }
+
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+            @Override
+            public void onResponse(Call call, okhttp3.Response response) throws IOException {
+                mProgress.dismiss();
+                try {
+                    String resp = response.body().string();
+                    Log.d("Resp",resp);
+                    try { JSONObject obj=new JSONObject(resp);
+
+                        JSONObject obj_response=obj.getJSONObject("Response");
+                        JSONObject obj_status=obj_response.getJSONObject("status");
+                        JSONObject obj_data=obj_response.getJSONObject("data");
+                        final String msgFinal = obj_data.getString("msg");
+                        String statusFinal = obj_data.getString("status");
+                        String type=obj_status.getString("type");
+                        String message=obj_status.getString("message");
+                        if(Objects.equals(type, "Success")){
+                            if(Objects.equals(statusFinal,"1")){
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                    disableInput(firstName);
+                                        disableInput(lastName);
+                                        disableInput(email);
+                                        disableInput(mobile);
+                                        btnStatus = 0;
+                                        btnUpdateProfile.setText("Edit");
+                                    }
+                                });
+                                //JSONObject obj_user=obj_data.getJSONObject("user");
+
+                            }else{
+
+                            }
+
+
+
+                        }else{
+
+                        }
+                    }
+                    catch (JSONException e)
+                    {
+
+
+                        e.printStackTrace();
+                    }
+                    Log.v("Response", resp);
+
+                    if (response.isSuccessful()) {
+                    }else {
+                        //
+                    }
+                } catch (IOException e) {
+
+                    System.out.println("Exception caught" + e.getMessage());
+                }
+            }
+
+        });
     }
 }

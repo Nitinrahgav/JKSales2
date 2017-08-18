@@ -1,7 +1,7 @@
-#Thu Aug 17 22:38:05 IST 2017
-base.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2f45c30df4dc5598fcf4d8c638edc3fbebefde86
+#Fri Aug 18 21:44:17 IST 2017
+base.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7c1a95e8499a5e776bb455e12f3d9a60a4221760
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8dbc7043aa09935d7b65ee0a0effb8e1a46e7837\\classes.dex
-base.1=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8dbc7043aa09935d7b65ee0a0effb8e1a46e7837
-file.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2f45c30df4dc5598fcf4d8c638edc3fbebefde86\\classes.dex
+file.1=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b73aca509e50e2807ac1254c0bd1598d21f9e198\\classes.dex
+base.1=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b73aca509e50e2807ac1254c0bd1598d21f9e198
+file.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7c1a95e8499a5e776bb455e12f3d9a60a4221760\\classes.dex

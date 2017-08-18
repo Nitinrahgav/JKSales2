@@ -1,4 +1,4 @@
-#Thu Aug 17 22:38:04 IST 2017
-base.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
+#Fri Aug 18 21:44:17 IST 2017
+base.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
 renamed.0=classes.dex
-file.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex
+file.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex

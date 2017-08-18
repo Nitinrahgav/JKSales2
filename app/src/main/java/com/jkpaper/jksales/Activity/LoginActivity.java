@@ -466,6 +466,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                                         });
                                         JSONObject obj_user=obj_data.getJSONObject("user");
                                         user_id=obj_user.getString("user_id");
+                                        sharedPreferences.edit().putString("user",mEmail).apply();
                                         sharedPreferences.edit().putString("user_id", user_id).apply();
                                         sharedPreferences.edit().putString("user_name", String.valueOf(obj_user.get("user_first") + " " +  obj_user.get("user_last"))).apply();
                                         sharedPreferences.edit().putString("user_first", obj_user.get("user_first").toString()).apply();
