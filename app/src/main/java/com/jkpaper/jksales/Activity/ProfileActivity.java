@@ -220,6 +220,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                                         disableInput(mobile);
                                         btnStatus = 0;
                                         btnUpdateProfile.setText("Edit");
+                                        sharedPreferences.edit().putString("user_name", firstName.getText().toString() + " " + lastName.getText().toString()).apply();
+                                        sharedPreferences.edit().putString("user_email",email.getText().toString()).apply();
                                     }
                                 });
                                 //JSONObject obj_user=obj_data.getJSONObject("user");

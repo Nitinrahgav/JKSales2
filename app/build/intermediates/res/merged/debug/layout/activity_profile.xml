@@ -58,7 +58,6 @@
                     android:layout_height="wrap_content"
                     android:hint="FIRST NAME"
                     android:id="@+id/edt_first_name"
-                    android:textAllCaps="true"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
@@ -70,7 +69,6 @@
                     android:layout_height="wrap_content"
                     android:hint="LAST NAME"
                     android:id="@+id/edt_last_name"
-                    android:textAllCaps="true"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
@@ -83,7 +81,6 @@
                 android:layout_height="wrap_content"
                 android:hint="PHONE NUMBER"
                 android:id="@+id/edt_mobile"
-                android:textAllCaps="true"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
@@ -95,7 +92,6 @@
                 android:layout_height="wrap_content"
                 android:hint="EMAIL ADDRESS"
                 android:id="@+id/edt_email"
-                android:textAllCaps="true"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
