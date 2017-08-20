@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Ashish\\.android\\build-cache\\09bdf6f2478e24f5ffe0fdf40f44df72ea57f5a0\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
+        "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\JKSales2\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
         "merged": "C:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\JKSales2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Ashish\\.android\\build-cache\\65b4e3d2292f1650a230c43d8dae4997bfad7045\\output\\res\\layout\\select_dialog_item_material.xml"
     },

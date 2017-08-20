@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml
@@ -48,12 +48,12 @@ ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSale
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:12:5-80
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:12:5-81
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:14:5-74:19
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:14:5-77:19
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:26:5-20
 MERGED from [com.akhgupta:android-easylocation:1.0.1] C:\Users\Ashish\.android\build-cache\b86b5d6338830f2868a4b30ebf7359663b2c6b21\output\AndroidManifest.xml:14:5-21:19
 MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\Ashish\.android\build-cache\a03acbc67d1b4fc9df1f751ee52c10da194fbcfc\output\AndroidManifest.xml:4:5-19
@@ -169,19 +169,19 @@ ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSale
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:55:13-52
 activity#com.jkpaper.jksales.Activity.WebViewActivityNav
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:59:9-64:68
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:59:9-64:59
 	android:label
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:62:13-64
 	android:parentActivityName
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:64:13-66
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:63:13-66
 	android:configChanges
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:61:13-59
 	android:theme
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:63:13-56
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:64:13-56
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:60:13-56
 activity#com.jkpaper.jksales.Activity.ProfileActivity
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:65:9-68:68
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:65:9-68:69
 	android:label
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:67:13-36
 	android:parentActivityName
@@ -189,15 +189,19 @@ ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSale
 	android:name
 		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:66:13-53
 receiver#com.jkpaper.jksales.Network.IncomingSms
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:69:9-73:20
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:70:9-74:20
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:69:19-54
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:70:19-54
 intent-filter#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:70:13-72:29
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:71:13-73:29
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:71:17-82
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:72:17-82
 	android:name
-		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:71:25-79
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:72:25-79
+activity#com.jkpaper.jksales.Activity.ChangePassword
+ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:76:9-70
+	android:name
+		ADDED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:76:19-58
 uses-sdk
 INJECTED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Ashish\.android\build-cache\c76b0ba3e55707c464d7503176e98d1e34760271\output\AndroidManifest.xml:20:5-43
@@ -287,7 +291,7 @@ ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-c
 	android:name
 		ADDED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Ashish\.android\build-cache\ed02a257f9cdd5e28948c3d2031129281e97ef9d\output\AndroidManifest.xml:20:17-67
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:2:1-76:12 reason: gun0912.tedbottompicker requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\src\main\AndroidManifest.xml:2:1-79:12 reason: gun0912.tedbottompicker requested WRITE_EXTERNAL_STORAGE
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Ashish\.android\build-cache\51b43d3930b4503b406d5f258e1481e0da355049\output\AndroidManifest.xml:19:9-172
 	android:exported

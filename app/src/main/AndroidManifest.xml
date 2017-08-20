@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.READ_SMS" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -60,17 +60,20 @@
             android:name=".Activity.WebViewActivityNav"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_web_view_nav"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".Activity.MenuActivtyNav"/>
+            android:parentActivityName=".Activity.MenuActivtyNav"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.ProfileActivity"
             android:label="Profile"
-            android:parentActivityName=".Activity.MenuActivtyNav"/>
+            android:parentActivityName=".Activity.MenuActivtyNav" />
+
         <receiver android:name=".Network.IncomingSms">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".Activity.ChangePassword"></activity>
     </application>
 
 </manifest>
