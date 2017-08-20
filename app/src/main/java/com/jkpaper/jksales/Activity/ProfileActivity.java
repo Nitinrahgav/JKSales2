@@ -3,12 +3,15 @@ package com.jkpaper.jksales.Activity;
 import android.Manifest;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -173,6 +176,31 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                     mProgress.show();
 
                 }
+                break;
+            case R.id.change_password:
+                Intent intent = new Intent(getApplicationContext(), ChangePassword.class);
+                startActivity(intent);
+                break;
+            case R.id.change_pin:
+                AlertDialog alertDialog = new AlertDialog.Builder(ProfileActivity.this).create();
+                alertDialog.setTitle("Change mPin");
+                alertDialog.setMessage("You need to login again to change your mPin.Do you want to continue??");
+                alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "LogOut",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+                                startActivity(intent);
+                            }
+                        });
+                alertDialog.show();
+                break;
 
 
 
