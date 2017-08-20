@@ -64,7 +64,8 @@
             android:parentActivityName=".Activity.MenuActivtyNav"/>
         <activity
             android:name=".Activity.ProfileActivity"
-            android:label="Profile" />
+            android:label="Profile"
+            android:parentActivityName=".Activity.MenuActivtyNav"/>
         <receiver android:name=".Network.IncomingSms">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />

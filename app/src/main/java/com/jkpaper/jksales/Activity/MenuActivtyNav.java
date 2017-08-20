@@ -264,7 +264,12 @@ public class MenuActivtyNav extends AppCompatActivity
     }
 
     private void loadResponse() {
-        url = "http://www.nitinraghav.com/jkapi/get_menu.php?user_id="+getIntent().getExtras().getString("id");
+        if(getIntent().getExtras() != null){
+            url = "http://www.nitinraghav.com/jkapi/get_menu.php?user_id="+getIntent().getExtras().getString("id");
+        }else{
+            url = "http://www.nitinraghav.com/jkapi/get_menu.php?user_id="+sharedPreferences.getString("user_id","");
+        }
+
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();

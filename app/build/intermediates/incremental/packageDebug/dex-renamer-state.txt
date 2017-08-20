@@ -1,4 +1,4 @@
-#Sat Aug 19 21:12:00 IST 2017
+#Sun Aug 20 09:58:00 IST 2017
 base.0=C\:\\Users\\Ashish\\Downloads\\App-Mockup-2\\JKSales2\\gradle\\wrapper\\JKSales2\\app\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2e9bd1fef8fa7c163b4bfd58ec391cf5acf25f13
 renamed.1=classes.dex
 renamed.0=classes2.dex

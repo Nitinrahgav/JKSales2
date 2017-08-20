@@ -1,6 +1,7 @@
 package com.jkpaper.jksales.Activity;
 
 import android.Manifest;
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.akhgupta.easylocation.EasyLocationRequestBuilder;
@@ -55,6 +57,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     ProgressDialog mProgress;
     private StorageReference mStorageRef;
     Button btnUpdateProfile;
+    TextView tvChangePassword, tvChangePin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,6 +70,10 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private void initViews() {
         btnUpdateProfile = (Button)findViewById(R.id.btn_edit_profile);
         btnUpdateProfile.setOnClickListener(this);
+        tvChangePassword = (TextView)findViewById(R.id.change_password);
+        tvChangePin = (TextView)findViewById(R.id.change_pin);
+        tvChangePassword.setOnClickListener(this);
+        tvChangePin.setOnClickListener(this);
         userImage = (CircleImageView) findViewById(R.id.user_image);
         userImage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -162,8 +169,9 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                     mProgress = new ProgressDialog(ProfileActivity.this);
                     mProgress.setTitle("Updating Profile");
                     mProgress.setMessage("Please wait, while we update your personal information..");
-                    mProgress.show();
                     updateProfileInfo();
+                    mProgress.show();
+
                 }
 
 
@@ -220,8 +228,11 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                                         disableInput(mobile);
                                         btnStatus = 0;
                                         btnUpdateProfile.setText("Edit");
+                                        Log.d("resp","Success");
                                         sharedPreferences.edit().putString("user_name", firstName.getText().toString() + " " + lastName.getText().toString()).apply();
                                         sharedPreferences.edit().putString("user_email",email.getText().toString()).apply();
+                                        sharedPreferences.edit().putString("user_first",firstName.getText().toString()).apply();
+                                        sharedPreferences.edit().putString("user_last",lastName.getText().toString()).apply();
                                     }
                                 });
                                 //JSONObject obj_user=obj_data.getJSONObject("user");

@@ -79,7 +79,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.jkpaper.jksales.Activity.ProfileActivity"
-            android:label="Profile" />
+            android:label="Profile"
+            android:parentActivityName="com.jkpaper.jksales.Activity.MenuActivtyNav" />
 
         <receiver android:name="com.jkpaper.jksales.Network.IncomingSms" >
             <intent-filter>
