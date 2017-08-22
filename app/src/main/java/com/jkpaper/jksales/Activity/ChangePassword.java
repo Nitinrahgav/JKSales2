@@ -1,5 +1,6 @@
 package com.jkpaper.jksales.Activity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.preference.PreferenceManager;
@@ -120,6 +121,10 @@ public class ChangePassword extends AppCompatActivity implements View.OnClickLis
                                     @Override
                                     public void run() {
                                         Log.d("resp","Success");
+                                        sharedPreferences.edit().clear();
+                                        showToast("Please login again to continue");
+                                        Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+                                        startActivity(intent);
                                     }
                                 });
                                 //JSONObject obj_user=obj_data.getJSONObject("user");
