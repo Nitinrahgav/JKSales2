@@ -867,7 +867,7 @@ int id action_menu_presenter 0x7f0e0003
 int id action_mode_bar 0x7f0e006f
 int id action_mode_bar_stub 0x7f0e006e
 int id action_mode_close_button 0x7f0e0051
-int id action_settings 0x7f0e00fe
+int id action_settings 0x7f0e00ff
 int id action_text 0x7f0e00c5
 int id actions 0x7f0e00d3
 int id activity_chooser_view_content 0x7f0e0052
@@ -878,7 +878,7 @@ int id alertTitle 0x7f0e0066
 int id all 0x7f0e0014
 int id always 0x7f0e0043
 int id auto 0x7f0e002d
-int id back 0x7f0e0100
+int id back 0x7f0e0101
 int id basic 0x7f0e0015
 int id beginning 0x7f0e003f
 int id bottom 0x7f0e002e
@@ -908,6 +908,7 @@ int id contentPanel 0x7f0e005c
 int id content_view 0x7f0e009f
 int id custom 0x7f0e0063
 int id customPanel 0x7f0e0062
+int id customer_details 0x7f0e00fd
 int id dark 0x7f0e004b
 int id decor_content_parent 0x7f0e0070
 int id default_activity_button 0x7f0e0055
@@ -969,7 +970,7 @@ int id list_item 0x7f0e0056
 int id login_failed_text 0x7f0e008e
 int id login_form 0x7f0e0089
 int id login_progress 0x7f0e0088
-int id logout 0x7f0e00fd
+int id logout 0x7f0e00fe
 int id logout_nav 0x7f0e00fc
 int id market_visit 0x7f0e00fa
 int id masked 0x7f0e00e9
@@ -1010,7 +1011,7 @@ int id qc_claim_status 0x7f0e00f1
 int id radio 0x7f0e006b
 int id rc_gallery 0x7f0e00e3
 int id recycler_detail 0x7f0e00a3
-int id refresh 0x7f0e00ff
+int id refresh 0x7f0e0100
 int id right 0x7f0e0035
 int id right_icon 0x7f0e00d2
 int id right_side 0x7f0e00cd

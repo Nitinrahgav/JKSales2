@@ -3459,7 +3459,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0e006f;
         public static final int action_mode_bar_stub=0x7f0e006e;
         public static final int action_mode_close_button=0x7f0e0051;
-        public static final int action_settings=0x7f0e00fe;
+        public static final int action_settings=0x7f0e00ff;
         public static final int action_text=0x7f0e00c5;
         public static final int actions=0x7f0e00d3;
         public static final int activity_chooser_view_content=0x7f0e0052;
@@ -3470,7 +3470,7 @@ containing a value of this type.
         public static final int all=0x7f0e0014;
         public static final int always=0x7f0e0043;
         public static final int auto=0x7f0e002d;
-        public static final int back=0x7f0e0100;
+        public static final int back=0x7f0e0101;
         public static final int basic=0x7f0e0015;
         public static final int beginning=0x7f0e003f;
         public static final int bottom=0x7f0e002e;
@@ -3500,6 +3500,7 @@ containing a value of this type.
         public static final int content_view=0x7f0e009f;
         public static final int custom=0x7f0e0063;
         public static final int customPanel=0x7f0e0062;
+        public static final int customer_details=0x7f0e00fd;
         public static final int dark=0x7f0e004b;
         public static final int decor_content_parent=0x7f0e0070;
         public static final int default_activity_button=0x7f0e0055;
@@ -3561,7 +3562,7 @@ containing a value of this type.
         public static final int login_failed_text=0x7f0e008e;
         public static final int login_form=0x7f0e0089;
         public static final int login_progress=0x7f0e0088;
-        public static final int logout=0x7f0e00fd;
+        public static final int logout=0x7f0e00fe;
         public static final int logout_nav=0x7f0e00fc;
         public static final int market_visit=0x7f0e00fa;
         public static final int masked=0x7f0e00e9;
@@ -3602,7 +3603,7 @@ containing a value of this type.
         public static final int radio=0x7f0e006b;
         public static final int rc_gallery=0x7f0e00e3;
         public static final int recycler_detail=0x7f0e00a3;
-        public static final int refresh=0x7f0e00ff;
+        public static final int refresh=0x7f0e0100;
         public static final int right=0x7f0e0035;
         public static final int right_icon=0x7f0e00d2;
         public static final int right_side=0x7f0e00cd;

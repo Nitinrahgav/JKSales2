@@ -220,22 +220,22 @@ public class WebViewActivityNav extends AppCompatActivity
             intent.putExtra("label","Sales ASM WS");
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
-//            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-//            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock.php");
-//            intent.putExtra("label","Stock On Hand");
-//            startActivity(intent);
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock.php");
+            intent.putExtra("label","Stock On Hand");
+            startActivity(intent);
+//            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.outstanding_ageing) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/outstanding.php");
             intent.putExtra("label","Outstanding Ageing");
             startActivity(intent);
         } else if (id == R.id.production_plan) {
-//            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-//            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/productionplan.php");
-//            intent.putExtra("label","Production Plan");
-//            startActivity(intent);
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/productionplan.php");
+            intent.putExtra("label","Production Plan");
+            startActivity(intent);
+//            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.qc_claim_status) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/qc.php");
@@ -258,18 +258,18 @@ public class WebViewActivityNav extends AppCompatActivity
 //            startActivity(intent);
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.mrp_of_products) {
-//            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-//            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mrp.php");
-//            intent.putExtra("label","MRP of Products");
-//            startActivity(intent);
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mrp.php");
+            intent.putExtra("label","MRP of Products");
+            startActivity(intent);
+//            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.landed_cost) {
-//            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-//            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/landedcost.php");
-//            intent.putExtra("label","Landed Cost");
-//            startActivity(intent);
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.consumer_details) {
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/landedcost.php");
+            intent.putExtra("label","Landed Cost");
+            startActivity(intent);
+//            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.customer_details) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
             intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/customerdetails.php");
             intent.putExtra("label","Customer Details");
@@ -279,7 +279,11 @@ public class WebViewActivityNav extends AppCompatActivity
         } else if (id == R.id.market_visit) {
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.mop) {
-            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
+            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mop.php");
+            intent.putExtra("label","MOP");
+            startActivity(intent);
+//            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         }else if(id == R.id.logout_nav){
             AlertDialog alertDialog = new AlertDialog.Builder(WebViewActivityNav.this).create();
             alertDialog.setTitle("Logout");

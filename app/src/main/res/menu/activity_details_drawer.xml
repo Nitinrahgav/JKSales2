@@ -65,7 +65,7 @@
         <item
             android:id="@+id/consumer_details"
             android:icon="@drawable/ic_assessment_black_24dp"
-            android:title="Consumer Details" />
+            android:title="Customer Details" />
         <item
             android:id="@+id/order_booking"
             android:icon="@drawable/ic_developer_board_black_24dp"

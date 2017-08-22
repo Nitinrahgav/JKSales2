@@ -56,7 +56,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MyViewHolder> 
             holder.imageName.setImageResource(R.drawable.ic_library_books_black_24dp);
         }else {
             int colorRes = 0;
-            switch(position % 5) {
+            switch(position % 6) {
                 case 0: colorRes = R.color.colour1;
                     holder.imageName.setImageResource(R.drawable.ic_library_books_black_24dp);
                     break;

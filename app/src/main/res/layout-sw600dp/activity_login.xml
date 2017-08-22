@@ -160,7 +160,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:paddingTop="50dp"
-                                android:text="Enter Pin"
+                                android:text="Enter mPin"
                                 android:textAlignment="center"
                                 android:textColor="#1B72D6"
                                 android:textColorHint="#D6D7D7"
@@ -179,7 +179,7 @@
                                     android:layout_gravity="center_horizontal"
                                     android:backgroundTint="@color/white"
                                     android:drawableRight="@drawable/ic_visibility_black_24dp"
-                                    android:hint="Pin"
+                                    android:hint="mPin"
                                     android:imeActionId="@+id/email_sign_in_button"
                                     android:imeActionLabel="@string/action_sign_in_short"
                                     android:imeOptions="actionUnspecified"
@@ -201,7 +201,7 @@
                                     android:layout_gravity="center_horizontal"
                                     android:backgroundTint="@color/white"
                                     android:drawableRight="@drawable/ic_visibility_black_24dp"
-                                    android:hint="Confirm Pin"
+                                    android:hint="Confirm mPin"
                                     android:imeActionId="@+id/email_sign_in_button"
                                     android:imeActionLabel="@string/action_sign_in_short"
                                     android:imeOptions="actionUnspecified"
@@ -244,7 +244,7 @@
                                 android:gravity="center"
                                 android:visibility="visible"
                                 android:layout_marginTop="10dp"
-                                android:text="Enter your pin to login"
+                                android:text="Enter your mPin to login"
                                 android:textColor="@color/white"/>
                             <TextView
                                 android:layout_width="match_parent"
@@ -255,7 +255,7 @@
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:id="@+id/tv_resend_otp"
-                                android:text="Forgot Pin"/>
+                                android:text="Forgot mPin"/>
                             <Button
                                 android:id="@+id/btn_submit_pin"
                                 android:layout_width="match_parent"

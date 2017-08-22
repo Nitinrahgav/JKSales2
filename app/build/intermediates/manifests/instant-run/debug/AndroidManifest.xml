@@ -88,6 +88,8 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name="com.jkpaper.jksales.Activity.ChangePassword" />
+
         <service
             android:name="com.akhgupta.easylocation.LocationBgService"
             android:exported="false" />

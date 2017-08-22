@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="23"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
     build-mode="FULL"
-    density="xhdpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1503204365317"
-    token="7002131511891748820"
+    timestamp="1503389373130"
+    token="-3443668202432125615"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1198" />
+        duration="3159" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="124" />
+        duration="83" />
     <task
         name="verifier"
-        duration="28" />
+        duration="57" />
 
     <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1503204365317"
+        timestamp="1503389373130"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Ashish\Downloads\App-Mockup-2\JKSales2\gradle\wrapper\JKSales2\app\JKSales2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

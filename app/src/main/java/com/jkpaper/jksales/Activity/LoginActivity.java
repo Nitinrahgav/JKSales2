@@ -158,7 +158,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                     intent.putExtra("id",sharedPreferences.getString("user_id",""));
                     startActivity(intent);
                 }else{
-                    Toast.makeText(getApplicationContext(),"Enter the correct pin",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Enter the correct mPin",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -597,7 +597,7 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
                         Log.d("user_id",user_id);
                         startActivity(intent);
                     }else{
-                        Toast.makeText(getApplicationContext(),"Password doesn't match",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),"mPin doesn't match",Toast.LENGTH_SHORT).show();
                         sharedPreferences.edit().putInt("pin",0).apply();
                     }
                 }else{
