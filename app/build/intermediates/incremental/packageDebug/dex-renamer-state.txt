@@ -1,4 +1,7 @@
-#Tue Aug 22 13:43:30 IST 2017
-base.0=C\:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Tue Aug 22 20:07:18 IST 2017
+base.0=C\:\\Users\\Ashish\\Videos\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6b757dc851cfa0861cc7957b762d4997120a323f
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=C\:\\Users\\Ashish\\Videos\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_37a0c20a4e3f59c9a5a2199c90af70836df1c3bb\\classes.dex
+base.1=C\:\\Users\\Ashish\\Videos\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_37a0c20a4e3f59c9a5a2199c90af70836df1c3bb
+file.0=C\:\\Users\\Ashish\\Videos\\JKSales2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6b757dc851cfa0861cc7957b762d4997120a323f\\classes.dex

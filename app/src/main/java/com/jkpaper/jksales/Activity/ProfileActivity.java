@@ -58,7 +58,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     Uri uri;
     String filePath;
     ProgressDialog mProgress;
-    private StorageReference mStorageRef;
+    private StorageReference storageRef;
+    FirebaseStorage storage;
     Button btnUpdateProfile;
     TextView tvChangePassword, tvChangePin;
     @Override
@@ -67,7 +68,10 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_profile);
         //mStorageRef = FirebaseStorage.getInstance().getReference();
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
+        //storageRef = FirebaseStorage.getInstance().getReference();
         initViews();
+
     }
 
     private void initViews() {
@@ -109,8 +113,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                         @Override
                         public void onImageSelected(final Uri uri) {
                             Log.d("file_path",uri.getPath());
-                            /*Uri file = Uri.fromFile(new File("path/to/images/rivers.jpg"));
-                            StorageReference riversRef = mStorageRef.child("images/"+uri.getLastPathSegment());
+                            /*StorageReference riversRef = storageRef.child("images/"+uri.getLastPathSegment());
                             UploadTask uploadTask = riversRef.putFile(uri);
 
 // Register observers to listen for when the download is done or if it fails
