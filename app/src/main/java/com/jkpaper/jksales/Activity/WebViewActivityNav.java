@@ -1,8 +1,10 @@
 package com.jkpaper.jksales.Activity;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
@@ -28,7 +30,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.jkpaper.jksales.R;
+import static android.R.attr.id;
 
 public class WebViewActivityNav extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -44,82 +46,96 @@ public class WebViewActivityNav extends AppCompatActivity
         setContentView(R.layout.activity_web_view_nav);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        url = getIntent().getStringExtra("url_web_view");
-        finalUrl = url + "&Token=d75542712c868c1690110db641ba01a";
-        Log.d("url",finalUrl);
-        if(getIntent().getStringExtra("label") != null){
-            ActionBar actionBar = getSupportActionBar();
-            actionBar.setTitle(getIntent().getStringExtra("label"));
-        }
+        if(isNetworkConnected()){
+            sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+            url = getIntent().getStringExtra("url_web_view");
+            finalUrl = url + "&Token=d75542712c868c1690110db641ba01a";
+            Log.d("url",finalUrl);
+            if(getIntent().getStringExtra("label") != null){
+                ActionBar actionBar = getSupportActionBar();
+                actionBar.setTitle(getIntent().getStringExtra("label"));
+            }
 
-        //mProgress = (ProgressBar)findViewById(R.id.progress_web_view);
-        tvLoading = (TextView)findViewById(R.id.tv_loading_webview);
-        crpv = (ProgressBar) findViewById(R.id.progress_web_view);
-        wv1 = (WebView)findViewById(R.id.web_view);
-        wv1.getSettings().setLoadsImagesAutomatically(true);
-        wv1.getSettings().setJavaScriptEnabled(true);
-        wv1.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        wv1.setWebViewClient(new MyBrowser());
-        wv1.loadUrl(url);
-        wv1.setWebChromeClient(new WebChromeClient() {
-            public void onProgressChanged(WebView view, int progress) {
-                view.setVisibility(View.GONE);
-                crpv.setVisibility(View.VISIBLE);
-                tvLoading.setVisibility(View.VISIBLE);
-                view.loadUrl("javascript:(function() { " +
-                        "var head = document.getElementsByTagName('header')[0];"
-                        + "head.parentNode.removeChild(head);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var footer = document.getElementsByTagName('footer')[0];"
-                        + "footer.parentNode.removeChild(footer);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var nav = document.getElementsByTagName('nav')[0];"
-                        + "nav.parentNode.removeChild(nav);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var set = document.getElementsByClassName('banner');"
-                        + "set[0].style.margin = '0px';" +
-                        "})()");
-                if(progress == 100){
-                    while(!injectJavaScript(view)){
-                        crpv.setVisibility(View.GONE);
-                        tvProgress.setVisibility(View.GONE);
-                        tvLoading.setVisibility(View.GONE);
-                        view.setVisibility(View.VISIBLE);
+            //mProgress = (ProgressBar)findViewById(R.id.progress_web_view);
+            tvLoading = (TextView)findViewById(R.id.tv_loading_webview);
+            crpv = (ProgressBar) findViewById(R.id.progress_web_view);
+            wv1 = (WebView)findViewById(R.id.web_view);
+            wv1.getSettings().setLoadsImagesAutomatically(true);
+            wv1.getSettings().setJavaScriptEnabled(true);
+            wv1.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+            wv1.setWebViewClient(new MyBrowser());
+            wv1.loadUrl(url);
+            wv1.setWebChromeClient(new WebChromeClient() {
+                public void onProgressChanged(WebView view, int progress) {
+                    view.setVisibility(View.GONE);
+                    crpv.setVisibility(View.VISIBLE);
+                    tvLoading.setVisibility(View.VISIBLE);
+                    view.loadUrl("javascript:(function() { " +
+                            "var head = document.getElementsByTagName('header')[0];"
+                            + "head.parentNode.removeChild(head);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var footer = document.getElementsByTagName('footer')[0];"
+                            + "footer.parentNode.removeChild(footer);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var nav = document.getElementsByTagName('nav')[0];"
+                            + "nav.parentNode.removeChild(nav);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var set = document.getElementsByClassName('banner');"
+                            + "set[0].style.margin = '0px';" +
+                            "})()");
+                    if(progress == 100){
+                        while(!injectJavaScript(view)){
+                            crpv.setVisibility(View.GONE);
+                            tvProgress.setVisibility(View.GONE);
+                            tvLoading.setVisibility(View.GONE);
+                            view.setVisibility(View.VISIBLE);
 
+                        }
                     }
-                }
 
-            }
-        });
-        wv1.setWebViewClient(new WebViewClient() {
-            @Override
-            public void onPageFinished(WebView view, String url)
-            {
-                view.loadUrl("javascript:(function() { " +
-                        "var head = document.getElementsByTagName('header')[0];"
-                        + "head.parentNode.removeChild(head);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var footer = document.getElementsByTagName('footer')[0];"
-                        + "footer.parentNode.removeChild(footer);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var nav = document.getElementsByTagName('nav')[0];"
-                        + "nav.parentNode.removeChild(nav);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var set = document.getElementsByClassName('banner');"
-                        + "set[0].style.margin = '0px';" +
-                        "})()");
-                crpv.setVisibility(View.GONE);
-                tvLoading.setVisibility(View.GONE);
-                view.setVisibility(View.VISIBLE);
-            }
-        });
+                }
+            });
+            wv1.setWebViewClient(new WebViewClient() {
+                @Override
+                public void onPageFinished(WebView view, String url)
+                {
+                    view.loadUrl("javascript:(function() { " +
+                            "var head = document.getElementsByTagName('header')[0];"
+                            + "head.parentNode.removeChild(head);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var footer = document.getElementsByTagName('footer')[0];"
+                            + "footer.parentNode.removeChild(footer);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var nav = document.getElementsByTagName('nav')[0];"
+                            + "nav.parentNode.removeChild(nav);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var set = document.getElementsByClassName('banner');"
+                            + "set[0].style.margin = '0px';" +
+                            "})()");
+                    crpv.setVisibility(View.GONE);
+                    tvLoading.setVisibility(View.GONE);
+                    view.setVisibility(View.VISIBLE);
+                }
+            });
+        }else{
+            AlertDialog alertDialog = new AlertDialog.Builder(WebViewActivityNav.this).create();
+            alertDialog.setTitle("No Internet");
+            alertDialog.setMessage("Please Connect to internet");
+            alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Dismiss",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+            alertDialog.show();
+
+        }
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -351,5 +367,10 @@ public class WebViewActivityNav extends AppCompatActivity
                 + "set[0].style.margin = '0px';" +
                 "})()");
         return true;
+    }
+    private boolean isNetworkConnected() {
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        return cm.getActiveNetworkInfo() != null;
     }
 }
