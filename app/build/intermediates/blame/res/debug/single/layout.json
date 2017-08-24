@@ -4,12 +4,12 @@
         "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\layout\\app_bar_menu_activty_nav.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_web_view_activity_nav.xml",
-        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\layout\\nav_header_web_view_activity_nav.xml"
-    },
-    {
         "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_layout.xml",
         "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\layout\\row_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_web_view_activity_nav.xml",
+        "source": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\src\\main\\res\\layout\\nav_header_web_view_activity_nav.xml"
     },
     {
         "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\RSTI EServices\\.android\\build-cache\\b44117921f6ec4879f77c24912bd669623e24800\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",

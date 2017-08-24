@@ -157,72 +157,72 @@ public class MenuActivtyNav extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.off_take_zone) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/offtakezone.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"offtakezone.php");
             intent.putExtra("label","Off Take Zone");
             startActivity(intent);
         } else if (id == R.id.sales) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/sales.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"sales.php");
             intent.putExtra("label","Sales ");
             startActivity(intent);
         } else if (id == R.id.sales_asm_ws) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/salesbyasm.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"salesbyasm.php");
             intent.putExtra("label","Sales ASM WS");
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"stock.php");
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.outstanding_ageing) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/outstanding.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"outstanding.php");
             intent.putExtra("label","Outstanding Ageing");
             startActivity(intent);
         } else if (id == R.id.production_plan) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/productionplan.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"productionplan.php");
             intent.putExtra("label","Production Plan");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.qc_claim_status) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/qc.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"qc.php");
             intent.putExtra("label","Quality Claim Status");
             startActivity(intent);
         } else if (id == R.id.pending_order_zone) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/pendingorderzone.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"pendingorderzone.php");
             intent.putExtra("label","Pending Order Zone");
             startActivity(intent);
         } else if (id == R.id.pending_order_zone_asm) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/pendingorderasm.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"pendingorderasm.php");
             intent.putExtra("label","Pending Order ASM");
             startActivity(intent);
         } else if (id == R.id.product_mc_details) {
 //            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-//            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/prodctmcdetails.php");
+//            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"prodctmcdetails.php");
 //            intent.putExtra("label","Product M/C Details");
 //            startActivity(intent);
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.mrp_of_products) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mrp.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"mrp.php");
             intent.putExtra("label","MRP of Products");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.landed_cost) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/landedcost.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"landedcost.php");
             intent.putExtra("label","Landed Cost");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.customer_details) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/customerdetails.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"customerdetails.php");
             intent.putExtra("label","Customer Details");
             startActivity(intent);
         } else if (id == R.id.order_booking) {
@@ -231,7 +231,7 @@ public class MenuActivtyNav extends AppCompatActivity
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.mop) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mop.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"mop.php");
             intent.putExtra("label","MOP");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
@@ -269,16 +269,16 @@ public class MenuActivtyNav extends AppCompatActivity
 
     private void loadResponse() {
         if(getIntent().getExtras() != null){
-            url = "http://www.nitinraghav.com/jkapi/get_menu.php?user_id="+getIntent().getExtras().getString("id");
+            url = getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"get_menu.php?user_id="+getIntent().getExtras().getString("id");
         }else{
-            url = "http://www.nitinraghav.com/jkapi/get_menu.php?user_id="+sharedPreferences.getString("user_id","");
+            url = getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"get_menu.php?user_id="+sharedPreferences.getString("user_id","");
         }
 
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://www.nitinraghav.com")
+                .baseUrl(getResources().getString(R.string.base_url))
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         ResponseInterface request = retrofit.create(ResponseInterface.class);

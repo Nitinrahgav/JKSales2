@@ -59,7 +59,7 @@ public class DetailActivity extends AppCompatActivity {
                 .setLenient()
                 .create();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://www.nitinraghav.com")
+                .baseUrl(getResources().getString(R.string.base_url)+getResources())
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         ResponseInterface request = retrofit.create(ResponseInterface.class);

@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1503389373130"
+    timestamp="1503569511290"
     token="-3443668202432125615"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="3159" />
+        duration="10806" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="83" />
+        duration="166" />
     <task
         name="verifier"
-        duration="57" />
+        duration="114" />
 
     <artifact
         location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1503389373130"
+        timestamp="1503569511290"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\RSTI EServices\AndroidStudioProjects\JKSalesN\app\build\intermediates\split-apk\debug\slices\slice_6.apk"

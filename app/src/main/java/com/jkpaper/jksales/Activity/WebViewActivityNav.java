@@ -1,8 +1,10 @@
 package com.jkpaper.jksales.Activity;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
@@ -42,84 +44,98 @@ public class WebViewActivityNav extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view_nav);
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        url = getIntent().getStringExtra("url_web_view");
-        finalUrl = url + "&Token=d75542712c868c1690110db641ba01a";
-        Log.d("url",finalUrl);
-        if(getIntent().getStringExtra("label") != null){
-            ActionBar actionBar = getSupportActionBar();
-            actionBar.setTitle(getIntent().getStringExtra("label"));
-        }
+        if(isNetworkConnected()){
+            url = getIntent().getStringExtra("url_web_view");
+            finalUrl = url + "&Token=d75542712c868c1690110db641ba01a";
+            Log.d("url",finalUrl);
+            if(getIntent().getStringExtra("label") != null){
+                ActionBar actionBar = getSupportActionBar();
+                actionBar.setTitle(getIntent().getStringExtra("label"));
+            }
 
-        //mProgress = (ProgressBar)findViewById(R.id.progress_web_view);
-        tvLoading = (TextView)findViewById(R.id.tv_loading_webview);
-        crpv = (ProgressBar) findViewById(R.id.progress_web_view);
-        wv1 = (WebView)findViewById(R.id.web_view);
-        wv1.getSettings().setLoadsImagesAutomatically(true);
-        wv1.getSettings().setJavaScriptEnabled(true);
-        wv1.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        wv1.setWebViewClient(new MyBrowser());
-        wv1.loadUrl(url);
-        wv1.setWebChromeClient(new WebChromeClient() {
-            public void onProgressChanged(WebView view, int progress) {
-                view.setVisibility(View.GONE);
-                crpv.setVisibility(View.VISIBLE);
-                tvLoading.setVisibility(View.VISIBLE);
-                view.loadUrl("javascript:(function() { " +
-                        "var head = document.getElementsByTagName('header')[0];"
-                        + "head.parentNode.removeChild(head);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var footer = document.getElementsByTagName('footer')[0];"
-                        + "footer.parentNode.removeChild(footer);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var nav = document.getElementsByTagName('nav')[0];"
-                        + "nav.parentNode.removeChild(nav);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var set = document.getElementsByClassName('banner');"
-                        + "set[0].style.margin = '0px';" +
-                        "})()");
-                if(progress == 100){
-                    while(!injectJavaScript(view)){
-                        crpv.setVisibility(View.GONE);
-                        tvProgress.setVisibility(View.GONE);
-                        tvLoading.setVisibility(View.GONE);
-                        view.setVisibility(View.VISIBLE);
+            //mProgress = (ProgressBar)findViewById(R.id.progress_web_view);
+            tvLoading = (TextView)findViewById(R.id.tv_loading_webview);
+            crpv = (ProgressBar) findViewById(R.id.progress_web_view);
+            wv1 = (WebView)findViewById(R.id.web_view);
+            wv1.getSettings().setLoadsImagesAutomatically(true);
+            wv1.getSettings().setJavaScriptEnabled(true);
+            wv1.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+            wv1.setWebViewClient(new MyBrowser());
+            wv1.loadUrl(url);
+            wv1.setWebChromeClient(new WebChromeClient() {
+                public void onProgressChanged(WebView view, int progress) {
+                    view.setVisibility(View.GONE);
+                    crpv.setVisibility(View.VISIBLE);
+                    tvLoading.setVisibility(View.VISIBLE);
+                    view.loadUrl("javascript:(function() { " +
+                            "var head = document.getElementsByTagName('header')[0];"
+                            + "head.parentNode.removeChild(head);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var footer = document.getElementsByTagName('footer')[0];"
+                            + "footer.parentNode.removeChild(footer);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var nav = document.getElementsByTagName('nav')[0];"
+                            + "nav.parentNode.removeChild(nav);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var set = document.getElementsByClassName('banner');"
+                            + "set[0].style.margin = '0px';" +
+                            "})()");
+                    if(progress == 100){
+                        while(!injectJavaScript(view)){
+                            crpv.setVisibility(View.GONE);
+                            tvProgress.setVisibility(View.GONE);
+                            tvLoading.setVisibility(View.GONE);
+                            view.setVisibility(View.VISIBLE);
 
+                        }
                     }
-                }
 
-            }
-        });
-        wv1.setWebViewClient(new WebViewClient() {
-            @Override
-            public void onPageFinished(WebView view, String url)
-            {
-                view.loadUrl("javascript:(function() { " +
-                        "var head = document.getElementsByTagName('header')[0];"
-                        + "head.parentNode.removeChild(head);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var footer = document.getElementsByTagName('footer')[0];"
-                        + "footer.parentNode.removeChild(footer);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var nav = document.getElementsByTagName('nav')[0];"
-                        + "nav.parentNode.removeChild(nav);" +
-                        "})()");
-                view.loadUrl("javascript:(function() { " +
-                        "var set = document.getElementsByClassName('banner');"
-                        + "set[0].style.margin = '0px';" +
-                        "})()");
-                crpv.setVisibility(View.GONE);
-                tvLoading.setVisibility(View.GONE);
-                view.setVisibility(View.VISIBLE);
-            }
-        });
+                }
+            });
+            wv1.setWebViewClient(new WebViewClient() {
+                @Override
+                public void onPageFinished(WebView view, String url)
+                {
+                    view.loadUrl("javascript:(function() { " +
+                            "var head = document.getElementsByTagName('header')[0];"
+                            + "head.parentNode.removeChild(head);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var footer = document.getElementsByTagName('footer')[0];"
+                            + "footer.parentNode.removeChild(footer);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var nav = document.getElementsByTagName('nav')[0];"
+                            + "nav.parentNode.removeChild(nav);" +
+                            "})()");
+                    view.loadUrl("javascript:(function() { " +
+                            "var set = document.getElementsByClassName('banner');"
+                            + "set[0].style.margin = '0px';" +
+                            "})()");
+                    crpv.setVisibility(View.GONE);
+                    tvLoading.setVisibility(View.GONE);
+                    view.setVisibility(View.VISIBLE);
+                }
+            });
+        }else{
+            AlertDialog alertDialog = new AlertDialog.Builder(WebViewActivityNav.this).create();
+            alertDialog.setTitle("No Internet");
+            alertDialog.setMessage("Please Connect to internet");
+            alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "Dismiss",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+            alertDialog.show();
+
+        }
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -206,72 +222,72 @@ public class WebViewActivityNav extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.off_take_zone) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/offtakezone.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"offtakezone.php");
             intent.putExtra("label","Off Take Zone");
             startActivity(intent);
         } else if (id == R.id.sales) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/sales.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"sales.php");
             intent.putExtra("label","Sales ");
             startActivity(intent);
         } else if (id == R.id.sales_asm_ws) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/salesbyasm.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"salesbyasm.php");
             intent.putExtra("label","Sales ASM WS");
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"stock.php");
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.outstanding_ageing) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/outstanding.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"outstanding.php");
             intent.putExtra("label","Outstanding Ageing");
             startActivity(intent);
         } else if (id == R.id.production_plan) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/productionplan.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"productionplan.php");
             intent.putExtra("label","Production Plan");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.qc_claim_status) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/qc.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"qc.php");
             intent.putExtra("label","Quality Claim Status");
             startActivity(intent);
         } else if (id == R.id.pending_order_zone) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/pendingorderzone.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"pendingorderzone.php");
             intent.putExtra("label","Pending Order Zone");
             startActivity(intent);
         } else if (id == R.id.pending_order_zone_asm) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/pendingorderasm.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"pendingorderasm.php");
             intent.putExtra("label","Pending Order ASM");
             startActivity(intent);
         } else if (id == R.id.product_mc_details) {
 //            Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-//            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/prodctmcdetails.php");
+//            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"prodctmcdetails.php");
 //            intent.putExtra("label","Product M/C Details");
 //            startActivity(intent);
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.mrp_of_products) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mrp.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"mrp.php");
             intent.putExtra("label","MRP of Products");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.landed_cost) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/landedcost.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"landedcost.php");
             intent.putExtra("label","Landed Cost");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.customer_details) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/customerdetails.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"customerdetails.php");
             intent.putExtra("label","Customer Details");
             startActivity(intent);
         } else if (id == R.id.order_booking) {
@@ -280,7 +296,7 @@ public class WebViewActivityNav extends AppCompatActivity
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.mop) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/mop.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"mop.php");
             intent.putExtra("label","MOP");
             startActivity(intent);
 //            Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
@@ -351,5 +367,10 @@ public class WebViewActivityNav extends AppCompatActivity
                 + "set[0].style.margin = '0px';" +
                 "})()");
         return true;
+    }
+    private boolean isNetworkConnected() {
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        return cm.getActiveNetworkInfo() != null;
     }
 }

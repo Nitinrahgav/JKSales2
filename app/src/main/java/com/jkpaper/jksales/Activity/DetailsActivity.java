@@ -115,37 +115,37 @@ public class DetailsActivity extends AppCompatActivity
             Toast.makeText(getApplicationContext(),"To be implemented!",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.off_take_zone) {
             Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=1");
+            intent.putExtra("url",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"get_details.php?menu_id=1");
             intent.putExtra("title","Off Take Zone");
             startActivity(intent);
         } else if (id == R.id.sales) {
             Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("url",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"get_details.php?menu_id=2");
             intent.putExtra("title","Sales");
             startActivity(intent);
         }  else if (id == R.id.sales_asm_ws) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock1.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"stock1.php");
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);
         } else if (id == R.id.stock_on_hand) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url_web_view","http://nitinraghav.com/jkapi/stock1.php");
+            intent.putExtra("url_web_view",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"stock1.php");
             intent.putExtra("label","Stock On Hand");
             startActivity(intent);
         } else if (id == R.id.outstanding_ageing) {
             Intent intent = new Intent(getApplicationContext(), WebViewActivityNav.class);
-            intent.putExtra("url","http://nitinraghav.com/jkapi/outstanding.php");
+            intent.putExtra("url",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"outstanding.php");
             intent.putExtra("label","Outstanding Ageing");
             startActivity(intent);
         } else if (id == R.id.production_plan) {
             Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("url",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"get_details.php?menu_id=2");
             intent.putExtra("title","Production Plan");
             startActivity(intent);
         } else if (id == R.id.qc_claim_status) {
             Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra("url","http://nitinraghav.com/jkapi/get_details.php?menu_id=2");
+            intent.putExtra("url",getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"get_details.php?menu_id=2");
             intent.putExtra("title","QC Claim Status");
             startActivity(intent);
         } else if (id == R.id.cform_status) {
@@ -208,7 +208,7 @@ public class DetailsActivity extends AppCompatActivity
                 .setLenient()
                 .create();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://www.nitinraghav.com")
+                .baseUrl(getResources().getString(R.string.base_url))
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         ResponseInterface request = retrofit.create(ResponseInterface.class);

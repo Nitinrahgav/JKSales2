@@ -1,4 +1,4 @@
-#Tue Aug 22 12:27:10 IST 2017
+#Thu Aug 24 15:17:22 IST 2017
 file.9=C\:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_6d7726a8eab62395d96d7578874b70b2c6cac2a1\\classes.dex
 base.10=C\:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_40d76f026776faa6d295b0a235da7531be1b51cf
 file.8=C\:\\Users\\RSTI EServices\\AndroidStudioProjects\\JKSalesN\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_8922417a7d7dd41446df8a265701baa4bd9fd6ea\\classes.dex

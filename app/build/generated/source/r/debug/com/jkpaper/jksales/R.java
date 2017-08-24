@@ -3907,10 +3907,11 @@ containing a value of this type.
         public static final int path_password_eye_mask_strike_through=0x7f080058;
         public static final int path_password_eye_mask_visible=0x7f080059;
         public static final int path_password_strike_through=0x7f08005a;
-        public static final int permission_rationale=0x7f08005b;
-        public static final int prompt_email=0x7f08005c;
-        public static final int prompt_password=0x7f08005d;
-        public static final int resend_otp=0x7f08005e;
+        public static final int path_url=0x7f08005b;
+        public static final int permission_rationale=0x7f08005c;
+        public static final int prompt_email=0x7f08005d;
+        public static final int prompt_password=0x7f08005e;
+        public static final int resend_otp=0x7f08005f;
         public static final int search_menu_title=0x7f080024;
         public static final int select_max_count=0x7f080028;
         public static final int select_min_count=0x7f080029;
@@ -3919,12 +3920,12 @@ containing a value of this type.
         public static final int tedpermission_close=0x7f08002b;
         public static final int tedpermission_confirm=0x7f08002c;
         public static final int tedpermission_setting=0x7f08002d;
-        public static final int title_activity_details=0x7f08005f;
-        public static final int title_activity_fullscreen=0x7f080060;
-        public static final int title_activity_login=0x7f080061;
-        public static final int title_activity_menu_activty_nav=0x7f080062;
-        public static final int title_activity_signin=0x7f080063;
-        public static final int title_activity_web_view_nav=0x7f080064;
+        public static final int title_activity_details=0x7f080060;
+        public static final int title_activity_fullscreen=0x7f080061;
+        public static final int title_activity_login=0x7f080062;
+        public static final int title_activity_menu_activty_nav=0x7f080063;
+        public static final int title_activity_signin=0x7f080064;
+        public static final int title_activity_web_view_nav=0x7f080065;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0a00a2;

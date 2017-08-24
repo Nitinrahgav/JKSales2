@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">ApexSales</string>
-    <string name="base_url">http://www.nitinraghav.com</string>
+    <string name="base_url">http://www.nitinraghav.com/</string>
+    <string name="path_url">jkapi/</string>
     <string name="title_activity_login">ApexSales</string>
 
     <!-- Strings related to login -->

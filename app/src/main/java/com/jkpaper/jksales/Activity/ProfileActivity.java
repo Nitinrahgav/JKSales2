@@ -217,7 +217,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                 .addFormDataPart("email",email.getText().toString())
                 .addFormDataPart("mobile", String.valueOf(mobile.getText().toString()))
                 .build();
-        Request request = new Request.Builder().url("http://nitinraghav.com/jkapi/update_profile.php").addHeader("Token","d75542712c868c1690110db641ba01a").addHeader("Data-For","1").post(requestBody).build();
+        Request request = new Request.Builder().url(getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"update_profile.php").addHeader("Token","d75542712c868c1690110db641ba01a").addHeader("Data-For","1").post(requestBody).build();
         okhttp3.Call call = client.newCall(request);
         call.enqueue(new Callback() {
 

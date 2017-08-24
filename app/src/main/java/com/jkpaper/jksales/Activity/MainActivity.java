@@ -65,12 +65,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadResponse() {
-        url = "http://www.nitinraghav.com/jkapi/get_menus.php?user_id="+getIntent().getExtras().getString("id");
+        url = getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"get_menus.php?user_id="+getIntent().getExtras().getString("id");
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://www.nitinraghav.com")
+                .baseUrl(getResources().getString(R.string.base_url))
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         ResponseInterface request = retrofit.create(ResponseInterface.class);

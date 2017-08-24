@@ -87,7 +87,8 @@ public class LoginActivity extends EasyLocationAppCompatActivity {
     private static String SMSBody1;
     TextView SMSm;
 
-    private static String LOGIN_URL = "http://www.nitinraghav.com/jkapi/login.php";
+//    private static String LOGIN_URL = getResources().getString(R.string.base_url)+getResources().getString(R.string.path_url)+"login.php";
+private static String LOGIN_URL = "http://nitinraghav.com/jkapi/login.php";
     public static void getSmsDetails(String phoneNumber, String SMSBody) {
         phoneNumber1 = phoneNumber;
         SMSBody1 = SMSBody;
