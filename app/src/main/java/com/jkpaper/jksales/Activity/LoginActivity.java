@@ -469,6 +469,7 @@ private static String LOGIN_URL = "http://nitinraghav.com/jkapi/login.php";
                                         user_id=obj_user.getString("user_id");
                                         sharedPreferences.edit().putString("user",mEmail).apply();
                                         sharedPreferences.edit().putString("user_id", user_id).apply();
+                                        sharedPreferences.edit().putString("password",mPassword).apply();
                                         sharedPreferences.edit().putString("user_name", String.valueOf(obj_user.get("user_first") + " " +  obj_user.get("user_last"))).apply();
                                         sharedPreferences.edit().putString("user_first", obj_user.get("user_first").toString()).apply();
                                         sharedPreferences.edit().putString("user_last", obj_user.get("user_last").toString()).apply();

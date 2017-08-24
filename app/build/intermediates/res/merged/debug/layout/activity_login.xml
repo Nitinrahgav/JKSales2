@@ -96,9 +96,9 @@
                                 <android.support.design.widget.TextInputLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
+                                    android:textColorHint="@color/white"
                                     app:passwordToggleEnabled = "true"
                                     app:passwordToggleTint="@color/white"
-                                    android:textColorHint="@color/white"
                                     app:passwordToggleDrawable="@drawable/password_selector">
                                     <EditText
                                         android:id="@+id/password"
